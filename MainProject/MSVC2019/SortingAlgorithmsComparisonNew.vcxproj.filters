@@ -1,0 +1,1200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{05b917b9-da8f-427f-b341-70c474d84152}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms">
+      <UniqueIdentifier>{c0e19032-1cba-4a9d-968c-b242e6ae058b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Data">
+      <UniqueIdentifier>{e6590450-8d7b-4a0a-861f-73bc890f33c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Data\NonRepeat_Reverse_Sorted">
+      <UniqueIdentifier>{13120d5d-1d63-481e-bbd8-8534821745af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Data\NonRepeat_Shuffled">
+      <UniqueIdentifier>{5c7f6c0b-02bf-41e4-83f4-38fe6f286f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Data\NonRepeat_Sorted">
+      <UniqueIdentifier>{71d1f105-97f1-42f2-b170-2f61bafeaf0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Data\NonRepeat_Sorted_with_some_Zeroes">
+      <UniqueIdentifier>{cd2d8cb9-3f52-42b3-9577-931073e6d913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Data\One_equal">
+      <UniqueIdentifier>{edc466cc-a515-48e9-94ea-3260a005b2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Data\One_equal_zeroes">
+      <UniqueIdentifier>{3a8b9a51-a21d-4f42-9328-f50948f44728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test Data\RAND_with_Repeats">
+      <UniqueIdentifier>{ea18d16c-076b-4d76-8043-59f417d6bc2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\BlockedQuickSort_h">
+      <UniqueIdentifier>{e694206c-4680-4f93-9071-ca83e27997a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Raduls">
+      <UniqueIdentifier>{31e904fb-8a09-40d9-b500-31e09ba4f137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\svpv_qsort_macro">
+      <UniqueIdentifier>{2d8cd092-cdf2-4762-8246-ecf0567df30a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats37_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats64_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats128_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats256_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats512_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats1024_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2048_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2049_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2050_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32710_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32711_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32713_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32715_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32717_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32724_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32756_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32760_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32768_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats65536_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats131072_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats524288_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2096128_numbers.cpp">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_37_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_64_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_128_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_256_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_512_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_1024_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2048_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2049_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2050_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32710_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32711_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32713_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32715_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32717_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32724_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32756_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32760_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32768_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_65536_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_131072_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_524288_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2096128_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled37_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled64_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled128_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled256_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled512_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled1024_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2048_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2049_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2050_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32710_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32711_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32713_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32715_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32717_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32724_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32756_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32760_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32768_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled65536_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled131072_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled524288_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2096128_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_37_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_64_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_128_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_256_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_512_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_1024_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2048_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2049_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2050_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32710_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32711_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32713_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32715_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32717_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32724_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32756_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32760_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32768_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_65536_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_131072_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_524288_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2096128_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal37_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal64_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal128_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal256_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal512_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal1024_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal2048_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal2049_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal2050_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32710_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32711_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32713_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32715_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32717_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32724_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32756_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32760_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32768_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal65536_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal131072_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal524288_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal2096128_numbers.cpp">
+      <Filter>Test Data\One_equal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes37_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes64_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes128_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes256_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes512_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes1024_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2048_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2049_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2050_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32710_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32711_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32713_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32715_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32717_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32724_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32756_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32760_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32768_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes65536_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes131072_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes524288_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2096128_numbers.cpp">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes37_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes64_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes128_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes256_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes512_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes1024_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2048_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2049_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2050_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32710_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32711_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32713_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32715_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32717_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32724_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32756_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32760_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32768_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes65536_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes131072_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes524288_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2096128_numbers.cpp">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\AlgorithmSupport.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\Arrays_Tools.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\blocked_double_pivot_check_mosqrt.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\Yaroslavskiy.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\TimSortRusev.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\TestDataAllocator.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\GenericMergeFunctions.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\qsort3_aumueller.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\RadulsSort.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\svpv_qsort_macro\svpv_qsort.cpp">
+      <Filter>Algorithms\svpv_qsort_macro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\RusevSwapSort4.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\QuickSortRusev.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\RadixSortRusev.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\RusevMergeSort32.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\RusevSwapSort2.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tools\TimeMeasureChrono_ns.cpp">
+      <Filter>Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\algorithms\raduls\sorting_network.cpp">
+      <Filter>Algorithms\Raduls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algorithms\BubbleSort.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algorithms\RusevUltra.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Algorithms\stl_StableSort.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes37_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes64_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes128_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes256_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes512_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes1024_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2048_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2049_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2050_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32710_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32711_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32713_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32715_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32717_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32724_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32756_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32760_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32768_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes65536_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes131072_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes524288_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2096128_numbers.h">
+      <Filter>Test Data\One_equal_zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal37_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal64_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal128_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal256_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal512_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal1024_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal2048_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal2049_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal2050_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32710_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32711_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32713_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32715_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32717_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32724_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32756_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32760_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32768_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal65536_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal131072_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal524288_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal2096128_numbers.h">
+      <Filter>Test Data\One_equal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes37_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes64_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes128_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes256_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes512_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes1024_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2048_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2049_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2050_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32710_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32711_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32713_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32715_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32717_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32724_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32756_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32760_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32768_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes65536_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes131072_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes524288_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2096128_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted_with_some_Zeroes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_37_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_64_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_128_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_256_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_512_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_1024_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2048_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2049_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2050_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32710_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32711_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32713_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32715_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32717_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32724_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32756_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32760_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32768_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_65536_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_131072_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_524288_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2096128_numbers.h">
+      <Filter>Test Data\NonRepeat_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled37_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled64_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled128_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled256_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled512_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled1024_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2048_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2049_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2050_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32710_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32711_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32713_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32715_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32717_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32724_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32756_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32760_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32768_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled65536_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled131072_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled524288_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2096128_numbers.h">
+      <Filter>Test Data\NonRepeat_Shuffled</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_37_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_64_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_128_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_256_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_512_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_1024_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2048_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2049_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2050_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32710_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32711_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32713_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32715_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32717_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32724_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32756_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32760_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32768_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_65536_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_131072_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_524288_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2096128_numbers.h">
+      <Filter>Test Data\NonRepeat_Reverse_Sorted</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats37_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats64_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats128_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats256_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats512_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats1024_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2048_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2049_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2050_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32710_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32711_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32713_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32715_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32717_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32724_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32756_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32760_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32768_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats65536_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats131072_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats524288_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2096128_numbers.h">
+      <Filter>Test Data\RAND_with_Repeats</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\svpv_qsort_macro\svpv_qsort.h">
+      <Filter>Algorithms\svpv_qsort_macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\svpv_qsort_macro\svpv_sorting_funcs.h">
+      <Filter>Algorithms\svpv_qsort_macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\RusevSwapSort4.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\RusevMergeSort32.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\RusevSwapSort2.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\RadixSortRusev.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\QuickSortRusev.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\TimSortRusev.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\Yaroslavskiy.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\blockedquicksort_h\blqs_insertionsort.h">
+      <Filter>Algorithms\BlockedQuickSort_h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\blockedquicksort_h\blqs_inssort.h">
+      <Filter>Algorithms\BlockedQuickSort_h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\blockedquicksort_h\blqs_median.h">
+      <Filter>Algorithms\BlockedQuickSort_h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\blockedquicksort_h\blqs_partition.h">
+      <Filter>Algorithms\BlockedQuickSort_h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\blockedquicksort_h\blqs_quicksort.h">
+      <Filter>Algorithms\BlockedQuickSort_h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\blockedquicksort_h\blqs_rotations.h">
+      <Filter>Algorithms\BlockedQuickSort_h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\Generated_Arrays_ContainList_ALL.h">
+      <Filter>Test Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\test data\Generated_Arrays_Includes.h">
+      <Filter>Test Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\GenericMergeData.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\TimeMeasureChrono_ns.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\TestDescriptor.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\TestDataContainer.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\ResultsDescriptior.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\Arrays_Tools.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tools\AlgorithmSupport.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\blocked_double_pivot_check_mosqrt.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\raduls\sorting_network.h">
+      <Filter>Algorithms\Raduls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\raduls\small_sort.h">
+      <Filter>Algorithms\Raduls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\raduls\record.h">
+      <Filter>Algorithms\Raduls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\RadulsSort.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\raduls\raduls.h">
+      <Filter>Algorithms\Raduls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\qsort3_aumueller.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\raduls\exceptions.h">
+      <Filter>Algorithms\Raduls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\raduls\defs.h">
+      <Filter>Algorithms\Raduls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\algorithms\raduls\comp_and_swap.h">
+      <Filter>Algorithms\Raduls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Algorithms\BubbleSort.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Algorithms\RusevUltra.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Algorithms\stl_StableSort.h">
+      <Filter>Algorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

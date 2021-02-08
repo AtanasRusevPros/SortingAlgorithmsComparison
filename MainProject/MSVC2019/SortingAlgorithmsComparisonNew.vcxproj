@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{BB812E18-9BFB-49E3-9393-C58D42EB7550}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>ClangCL</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+      <Optimization>MaxSpeed</Optimization>
+    </ClCompile>
+    <Link>
+      <StackReserveSize>125829120</StackReserveSize>
+      <StackCommitSize>125829120</StackCommitSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <AdditionalOptions>/bigobj %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <StackReserveSize>125829120</StackReserveSize>
+      <StackCommitSize>125829120</StackCommitSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\algorithms\blocked_double_pivot_check_mosqrt.cpp" />
+    <ClCompile Include="..\Algorithms\BubbleSort.cpp" />
+    <ClCompile Include="..\algorithms\qsort3_aumueller.cpp" />
+    <ClCompile Include="..\algorithms\QuickSortRusev.cpp" />
+    <ClCompile Include="..\algorithms\RadixSortRusev.cpp" />
+    <ClCompile Include="..\algorithms\RadulsSort.cpp" />
+    <ClCompile Include="..\algorithms\raduls\sorting_network.cpp" />
+    <ClCompile Include="..\algorithms\RusevMergeSort32.cpp" />
+    <ClCompile Include="..\algorithms\RusevSwapSort2.cpp" />
+    <ClCompile Include="..\algorithms\RusevSwapSort4.cpp" />
+    <ClCompile Include="..\Algorithms\RusevUltra.cpp" />
+    <ClCompile Include="..\Algorithms\stl_StableSort.cpp" />
+    <ClCompile Include="..\algorithms\svpv_qsort_macro\svpv_qsort.cpp" />
+    <ClCompile Include="..\algorithms\TimSortRusev.cpp" />
+    <ClCompile Include="..\algorithms\Yaroslavskiy.cpp" />
+    <ClCompile Include="..\main.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_1024_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_128_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_131072_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2048_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2049_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2050_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2096128_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_256_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32710_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32711_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32713_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32715_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32717_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32724_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32756_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32760_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32768_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_37_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_512_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_524288_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_64_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_65536_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled1024_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled128_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled131072_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2048_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2049_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2050_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2096128_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled256_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32710_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32711_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32713_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32715_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32717_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32724_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32756_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32760_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32768_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled37_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled512_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled524288_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled64_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled65536_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_1024_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_128_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_131072_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2048_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2049_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2050_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2096128_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_256_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32710_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32711_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32713_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32715_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32717_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32724_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32756_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32760_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32768_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_37_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_512_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_524288_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_64_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_65536_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes1024_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes128_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes131072_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2048_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2049_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2050_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2096128_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes256_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32710_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32711_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32713_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32715_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32717_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32724_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32756_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32760_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32768_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes37_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes512_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes524288_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes64_numbers.cpp" />
+    <ClCompile Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes65536_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal1024_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal128_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal131072_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal2048_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal2049_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal2050_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal2096128_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal256_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32710_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32711_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32713_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32715_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32717_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32724_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32756_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32760_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32768_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal32_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal37_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal512_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal524288_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal64_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal\GeneratedOne_Equal65536_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes1024_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes128_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes131072_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2048_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2049_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2050_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2096128_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes256_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32710_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32711_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32713_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32715_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32717_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32724_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32756_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32760_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32768_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes37_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes512_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes524288_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes64_numbers.cpp" />
+    <ClCompile Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes65536_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats1024_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats128_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats131072_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2048_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2049_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2050_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2096128_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats256_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32710_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32711_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32713_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32715_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32717_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32724_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32756_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32760_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32768_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats37_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats512_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats524288_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats64_numbers.cpp" />
+    <ClCompile Include="..\test data\rand_with_repeats\Generated_RAND_Repeats65536_numbers.cpp" />
+    <ClCompile Include="..\tools\AlgorithmSupport.cpp" />
+    <ClCompile Include="..\tools\Arrays_Tools.cpp" />
+    <ClCompile Include="..\tools\GenericMergeFunctions.cpp" />
+    <ClCompile Include="..\tools\TestDataAllocator.cpp" />
+    <ClCompile Include="..\tools\TimeMeasureChrono_ns.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\algorithms\blockedquicksort_h\blqs_insertionsort.h" />
+    <ClInclude Include="..\algorithms\blockedquicksort_h\blqs_inssort.h" />
+    <ClInclude Include="..\algorithms\blockedquicksort_h\blqs_median.h" />
+    <ClInclude Include="..\algorithms\blockedquicksort_h\blqs_partition.h" />
+    <ClInclude Include="..\algorithms\blockedquicksort_h\blqs_quicksort.h" />
+    <ClInclude Include="..\algorithms\blockedquicksort_h\blqs_rotations.h" />
+    <ClInclude Include="..\algorithms\blocked_double_pivot_check_mosqrt.h" />
+    <ClInclude Include="..\Algorithms\BubbleSort.h" />
+    <ClInclude Include="..\algorithms\qsort3_aumueller.h" />
+    <ClInclude Include="..\algorithms\QuickSortRusev.h" />
+    <ClInclude Include="..\algorithms\RadixSortRusev.h" />
+    <ClInclude Include="..\algorithms\RadulsSort.h" />
+    <ClInclude Include="..\algorithms\raduls\comp_and_swap.h" />
+    <ClInclude Include="..\algorithms\raduls\defs.h" />
+    <ClInclude Include="..\algorithms\raduls\exceptions.h" />
+    <ClInclude Include="..\algorithms\raduls\raduls.h" />
+    <ClInclude Include="..\algorithms\raduls\record.h" />
+    <ClInclude Include="..\algorithms\raduls\small_sort.h" />
+    <ClInclude Include="..\algorithms\raduls\sorting_network.h" />
+    <ClInclude Include="..\algorithms\RusevMergeSort32.h" />
+    <ClInclude Include="..\algorithms\RusevSwapSort2.h" />
+    <ClInclude Include="..\algorithms\RusevSwapSort4.h" />
+    <ClInclude Include="..\Algorithms\RusevUltra.h" />
+    <ClInclude Include="..\Algorithms\stl_StableSort.h" />
+    <ClInclude Include="..\algorithms\svpv_qsort_macro\svpv_qsort.h" />
+    <ClInclude Include="..\algorithms\svpv_qsort_macro\svpv_sorting_funcs.h" />
+    <ClInclude Include="..\algorithms\TimSortRusev.h" />
+    <ClInclude Include="..\algorithms\Yaroslavskiy.h" />
+    <ClInclude Include="..\test data\Generated_Arrays_ContainList_ALL.h" />
+    <ClInclude Include="..\test data\Generated_Arrays_Includes.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_1024_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_128_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_131072_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2048_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2049_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2050_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_2096128_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_256_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32710_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32711_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32713_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32715_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32717_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32724_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32756_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32760_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32768_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_32_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_37_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_512_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_524288_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_64_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_reverse_sorted\GeneratedNonRepeatREVERSE_Sorted_65536_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled1024_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled128_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled131072_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2048_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2049_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2050_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled2096128_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled256_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32710_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32711_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32713_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32715_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32717_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32724_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32756_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32760_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32768_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled32_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled37_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled512_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled524288_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled64_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_shuffled\GeneratedNonRepeatShuffled65536_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_1024_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_128_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_131072_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2048_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2049_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2050_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_2096128_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_256_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32710_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32711_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32713_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32715_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32717_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32724_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32756_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32760_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32768_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_32_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_37_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_512_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_524288_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_64_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted\GeneratedNonRepeatSorted_65536_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes1024_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes128_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes131072_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2048_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2049_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2050_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes2096128_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes256_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32710_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32711_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32713_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32715_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32717_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32724_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32756_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32760_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32768_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes32_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes37_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes512_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes524288_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes64_numbers.h" />
+    <ClInclude Include="..\test data\nonrepeat_sorted_with_some_zeroes\GeneratedNonRepeatSorted_SomeZeroes65536_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal1024_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal128_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal131072_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal2048_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal2049_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal2050_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal2096128_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal256_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32710_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32711_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32713_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32715_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32717_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32724_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32756_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32760_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32768_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal32_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal37_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal512_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal524288_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal64_numbers.h" />
+    <ClInclude Include="..\test data\one_equal\GeneratedOne_Equal65536_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes1024_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes128_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes131072_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2048_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2049_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2050_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes2096128_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes256_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32710_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32711_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32713_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32715_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32717_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32724_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32756_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32760_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32768_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes32_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes37_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes512_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes524288_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes64_numbers.h" />
+    <ClInclude Include="..\test data\one_equal_zeroes\GeneratedOne_EqualZeroes65536_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats1024_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats128_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats131072_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2048_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2049_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2050_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats2096128_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats256_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32710_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32711_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32713_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32715_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32717_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32724_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32756_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32760_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32768_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats32_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats37_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats512_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats524288_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats64_numbers.h" />
+    <ClInclude Include="..\test data\rand_with_repeats\Generated_RAND_Repeats65536_numbers.h" />
+    <ClInclude Include="..\tools\AlgorithmSupport.h" />
+    <ClInclude Include="..\tools\Arrays_Tools.h" />
+    <ClInclude Include="..\tools\GenericMergeData.h" />
+    <ClInclude Include="..\tools\ResultsDescriptior.h" />
+    <ClInclude Include="..\tools\TestDataContainer.h" />
+    <ClInclude Include="..\tools\TestDescriptor.h" />
+    <ClInclude Include="..\tools\TimeMeasureChrono_ns.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
