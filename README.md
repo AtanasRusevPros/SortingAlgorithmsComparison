@@ -28,7 +28,9 @@ ONE_NUMBER  // only integer 123
 ONLY_ZEROES // necessary as some implementations may make use of the 0, and such test data will reveal potential issues
 
 The arrays sizes are from these classes, I currently use only the first 3: 
+
 enum class TestDataSizeType {
+
     SMALL_32_2050,
     
     BIG_32768_524288,
