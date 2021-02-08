@@ -1,0 +1,5 @@
+#ifndef GENERATED_arrayNonRepeatSorted_SomeZeroes256
+#define GENERATED_arrayNonRepeatSorted_SomeZeroes256
+extern SingleTestContainer arrayNonRepeatSorted_SomeZeroes_NotAligned_256_c;
+extern SingleTestContainer arrayNonRepeatSorted_SomeZeroes_Aligned_256_c;
+#endif
