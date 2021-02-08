@@ -1,0 +1,5 @@
+#ifndef GENERATED_arrayOne_EqualNum128
+#define GENERATED_arrayOne_EqualNum128
+extern SingleTestContainer arrayOne_EqualNum_NotAligned_128_c;
+extern SingleTestContainer arrayOne_EqualNum_Aligned_128_c;
+#endif
