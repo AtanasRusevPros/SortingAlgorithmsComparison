@@ -1,0 +1,5 @@
+#ifndef GENERATED_arrayNonRepeat_REVERSE_Sorted256
+#define GENERATED_arrayNonRepeat_REVERSE_Sorted256
+extern SingleTestContainer arrayNonRepeat_REVERSE_Sorted_NotAligned_256_c;
+extern SingleTestContainer arrayNonRepeat_REVERSE_Sorted_Aligned_256_c;
+#endif

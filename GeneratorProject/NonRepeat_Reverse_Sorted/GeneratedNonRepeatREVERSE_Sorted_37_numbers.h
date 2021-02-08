@@ -1,0 +1,5 @@
+#ifndef GENERATED_arrayNonRepeat_REVERSE_Sorted37
+#define GENERATED_arrayNonRepeat_REVERSE_Sorted37
+extern SingleTestContainer arrayNonRepeat_REVERSE_Sorted_NotAligned_37_c;
+extern SingleTestContainer arrayNonRepeat_REVERSE_Sorted_Aligned_37_c;
+#endif
