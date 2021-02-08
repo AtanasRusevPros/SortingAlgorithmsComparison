@@ -1,0 +1,5 @@
+#ifndef GENERATED_arrayOne_EqualNumZeroes32760
+#define GENERATED_arrayOne_EqualNumZeroes32760
+extern SingleTestContainer arrayOne_EqualNumZeroes_NotAligned_32760_c;
+extern SingleTestContainer arrayOne_EqualNumZeroes_Aligned_32760_c;
+#endif
