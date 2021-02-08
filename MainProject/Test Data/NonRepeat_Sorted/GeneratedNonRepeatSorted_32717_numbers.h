@@ -1,0 +1,5 @@
+#ifndef GENERATED_arrayNonRepeatSorted32717
+#define GENERATED_arrayNonRepeatSorted32717
+extern SingleTestContainer arrayNonRepeatSorted_NotAligned_32717_c;
+extern SingleTestContainer arrayNonRepeatSorted_Aligned_32717_c;
+#endif
