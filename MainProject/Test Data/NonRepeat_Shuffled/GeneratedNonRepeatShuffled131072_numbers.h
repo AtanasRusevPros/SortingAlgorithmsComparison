@@ -1,0 +1,5 @@
+#ifndef GENERATED_arrayNonRepeat_Shuffled131072
+#define GENERATED_arrayNonRepeat_Shuffled131072
+extern SingleTestContainer arrayNonRepeat_Shuffled_NotAligned_131072_c;
+extern SingleTestContainer arrayNonRepeat_Shuffled_Aligned_131072_c;
+#endif
