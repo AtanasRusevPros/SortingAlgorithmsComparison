@@ -1,0 +1,5 @@
+#ifndef GENERATED_arrayNonRepeat_Shuffled32
+#define GENERATED_arrayNonRepeat_Shuffled32
+extern SingleTestContainer arrayNonRepeat_Shuffled_NotAligned_32_c;
+extern SingleTestContainer arrayNonRepeat_Shuffled_Aligned_32_c;
+#endif
