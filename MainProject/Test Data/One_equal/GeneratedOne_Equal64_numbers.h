@@ -1,0 +1,5 @@
+#ifndef GENERATED_arrayOne_EqualNum64
+#define GENERATED_arrayOne_EqualNum64
+extern SingleTestContainer arrayOne_EqualNum_NotAligned_64_c;
+extern SingleTestContainer arrayOne_EqualNum_Aligned_64_c;
+#endif

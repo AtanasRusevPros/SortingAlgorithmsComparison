@@ -1,0 +1,5 @@
+#ifndef GENERATED_arrayOne_EqualNum512
+#define GENERATED_arrayOne_EqualNum512
+extern SingleTestContainer arrayOne_EqualNum_NotAligned_512_c;
+extern SingleTestContainer arrayOne_EqualNum_Aligned_512_c;
+#endif
