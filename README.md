@@ -14,19 +14,29 @@ BASIC TEST IDEA:
 The purpose of the project is to test any given algorithm with a big amount of different static arrays of numbers, so that when the final results are averaged we know which algo is better. We have several categories:
 
 SORTED
+
 REVERSE_SORTED
+
 SORTED_WITH_SOME_ZEROES_INSERTED
+
 RAND_WITH_REPEATING_NUMBERS
+
 RAND_NO_REPEAT_SHUFFLED
+
 ONE_NUMBER  // only integer 123
+
 ONLY_ZEROES // necessary as some implementations may make use of the 0, and such test data will reveal potential issues
 
 The arrays sizes are from these classes, I currently use only the first 3: 
 enum class TestDataSizeType {
     SMALL_32_2050,
+    
     BIG_32768_524288,
+    
     SUPER_BIG_2096128,
+    
     GIGA_BIG_2147483648,    // not yet used 
+    
     TERA_BIG_1099511627776, // not yet used 
 };
 
