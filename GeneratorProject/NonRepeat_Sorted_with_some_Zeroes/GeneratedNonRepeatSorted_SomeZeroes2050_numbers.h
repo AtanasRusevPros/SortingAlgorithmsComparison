@@ -1,0 +1,5 @@
+#ifndef GENERATED_arrayNonRepeatSorted_SomeZeroes2050
+#define GENERATED_arrayNonRepeatSorted_SomeZeroes2050
+extern SingleTestContainer arrayNonRepeatSorted_SomeZeroes_NotAligned_2050_c;
+extern SingleTestContainer arrayNonRepeatSorted_SomeZeroes_Aligned_2050_c;
+#endif
