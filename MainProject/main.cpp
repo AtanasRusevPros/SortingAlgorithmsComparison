@@ -1492,19 +1492,19 @@ int main(void)// int argc, char *argv[])
     TestExecutor testObj(RUNS_PER_ALGO, TestExecutionLength::LONG, TestSelection::ALL, saveToCsvPerRun, enableTimeLimit);
 
 
-    /*
+    
     testObj.multiTestDynamicData(AlgorithmID::RusevUltraBasedOn4Rusev, "", RusevUltraBasedOn4Rusev<32>);
     testObj.multiTestDynamicData(AlgorithmID::RusevUltraBasedOn4RusevV2, "", RusevUltraBasedOn4RusevV2<32>);
-    */
+    
 
     testObj.multiTestDynamicData(AlgorithmID::stl_StableSort, "", stl_StableSort);
     testObj.multiTestDynamicData(AlgorithmID::stl_sortRegular, "", stl_sortRegular);
-    /*
-    testObj.multiTestDynamicData(AlgorithmID::svpv_stdlib_isort, "", svpv_stdlib_isort);    
+    
+    // testObj.multiTestDynamicData(AlgorithmID::svpv_stdlib_isort, "", svpv_stdlib_isort);    
     // testObj.multiTestDynamicData(AlgorithmID::Other, "", memoryOverFlowException);
     // testObj.multiTestDynamicData(AlgorithmID::Other, "", badTypeIdException);
-    testObj.multiTestDynamicData(AlgorithmID::QuickSortDualPivot_Yaroslavskiy, "", QuickSortDualPivot_Yaroslavskiy);
-    testObj.multiTestDynamicData(AlgorithmID::QuickSortDualPivot_Qsort3_aumueller, "", QuickSortDualPivot_Qsort3_aumueller);
+    // testObj.multiTestDynamicData(AlgorithmID::QuickSortDualPivot_Yaroslavskiy, "", QuickSortDualPivot_Yaroslavskiy);
+    // testObj.multiTestDynamicData(AlgorithmID::QuickSortDualPivot_Qsort3_aumueller, "", QuickSortDualPivot_Qsort3_aumueller);
 
 
     testObj.multiTestDynamicData(AlgorithmID::RusevUltraBasedOn4_V3_integral, "", RusevUltraBasedOn4_V3_integral<32>);
@@ -1528,8 +1528,8 @@ int main(void)// int argc, char *argv[])
     testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort32basedOn4_2, "", RusevMergeSortBasedOn4_2<32>);
     testObj.multiTestDynamicData(AlgorithmID::RusevMergeSortBasedOn2_32StaticStacksNoOpt, "", RusevMergeSortBasedOn2_32StaticStacksNoOpt);
     testObj.multiTestDynamicData(AlgorithmID::RusevMergeSortBasedOn2_32StaticStacksOPTIMIZED, "", RusevMergeSortBasedOn2_32StaticStacksOPTIMIZED);
-    */
-    /*
+    
+    
     testObj.multiTestDynamicData(AlgorithmID::QuicksortSinglePivotWithCheck, "", QuicksortSinglePivotWithCheck);
     testObj.multiTestDynamicData(AlgorithmID::QuicksortSinglePivot_RusevOptimized, "", QuicksortSinglePivot_RusevOptimized);
     testObj.multiTestDynamicData(AlgorithmID::QuickSortDualPivotRusev_WithCheck, "", QuickSortDualPivotRusev_WithCheck);
@@ -1551,8 +1551,8 @@ int main(void)// int argc, char *argv[])
     testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort1024basedOn4_2, "", RusevMergeSortBasedOn4_2<1024>);
     testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort2048basedOn2, "", RusevMergeSortBasedOn2<2048>);
     testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort2048basedOn4_2, "", RusevMergeSortBasedOn4_2<2048>);
-    */
-    /*
+    
+    
 
     testObj.multiTestDynamicData(AlgorithmID::RusevMergeSortBasedOn2_32StaticStacksOPTIMIZED_Dyn, "", RusevMergeSortBasedOn2_32StaticStacksOPTIMIZED_Dyn);
     testObj.multiTestDynamicData(AlgorithmID::timSort_Rusev, "", timSort_Rusev);
@@ -1568,7 +1568,7 @@ int main(void)// int argc, char *argv[])
     testObj.multiTestDynamicData(AlgorithmID::svpv_stl_isort_RusevMerge, "", svpv_stl_isort_RusevMerge);
     testObj.multiTestDynamicData(AlgorithmID::svpv_isort_qsort_RusevMerge, "", svpv_isort_qsort_RusevMerge);    
     
-    */
+    
     testObj.saveFinalSummary();
     
     totalTime = getTime_Since_Epoch_ns() - totalTime;
