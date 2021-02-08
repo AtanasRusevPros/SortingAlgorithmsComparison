@@ -1,0 +1,5 @@
+#ifndef GENERATED_arrayNonRepeat_Shuffled256
+#define GENERATED_arrayNonRepeat_Shuffled256
+extern SingleTestContainer arrayNonRepeat_Shuffled_NotAligned_256_c;
+extern SingleTestContainer arrayNonRepeat_Shuffled_Aligned_256_c;
+#endif
