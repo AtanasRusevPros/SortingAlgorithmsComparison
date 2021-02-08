@@ -1,0 +1,111 @@
+########################################################
+Starting run 1 out of 20
+*************************************************************
+**     Detailed report one per one for each input data array 
+*************************************************************
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 32 Time : 2,678 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 37 Time : 2,677 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 64 Time : 7,587 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 128 Time : 25,884 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 256 Time : 42,397 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 512 Time : 224,035 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 1024 Time : 421,740 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2048 Time : 1,662,415 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2049 Time : 2,006,948 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2050 Time : 2,344,340 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32768 Time : 436,771,550 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32760 Time : 426,571,239 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32724 Time : 421,182,336 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32756 Time : 422,677,840 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32710 Time : 415,719,797 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32713 Time : 417,295,632 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32717 Time : 426,110,226 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32711 Time : 417,159,069 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32715 Time : 420,131,333 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 65536 Time : 1,708,353,490 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 32 Time : 1,338 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 37 Time : 1,338 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 64 Time : 4,017 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 128 Time : 10,265 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 256 Time : 33,025 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 512 Time : 114,695 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 1024 Time : 470,385 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2048 Time : 1,742,301 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2049 Time : 1,685,176 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2050 Time : 1,669,109 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32768 Time : 424,460,752 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32760 Time : 450,263,219 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32724 Time : 427,121,063 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32756 Time : 432,818,795 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32710 Time : 416,781,511 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32713 Time : 418,388,587 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32717 Time : 416,916,735 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32711 Time : 422,912,140 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32715 Time : 417,817,786 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 65536 Time : 1,692,921,370 ns
+*************************************************************
+** END Detailed report one per one for each input data array 
+*************************************************************
+
+*****************************************************
+Printing Final results !!! : 
+*****************************************************
+Algorithm Name: RusevSwapSort4  INFO: 
+
+Total Time NOT Aligned: 5,518,713,213 ns
+Average Small Time NOT Aligned: 674,070 ns
+Average Big Time NOT Aligned: 551,197,251 ns
+Average Super Big Time NOT Aligned: 0 ns
+
+Total Time Aligned: 5,526,133,607 ns
+Average Small Time Aligned: 573,164 ns
+Average Big Time Aligned: 552,040,195 ns
+Average Super Big Time Aligned: 0 ns
+
+Small Tests: RAND_with_Repeats, Total: 10, Average: 674,070 ns
+Small Tests: REV_SORTED, Total: 0, Average: 0 ns
+Small Tests: RAND_NO_REPEATS_SHUFFLED, Total: 0, Average: 0 ns
+Small Tests: SORTED, Total: 0, Average: 0 ns
+Small Tests: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 0, Average: 0 ns
+Small Tests: ONE_NUMBER, Total: 0, Average: 0 ns
+Small Tests: ONLY_ZEROES, Total: 0, Average: 0 ns
+Big Tests RAND_with_Repeats, Total: 10, Average: 551,197,251 ns
+Big Tests REV_SORTED, Total: 0, Average: 0 ns
+Big Tests RAND_NO_REPEATS_SHUFFLED, Total: 0, Average: 0 ns
+Big Tests SORTED, Total: 0, Average: 0 ns
+Big Tests SORTED_WITH_SOME_ZEROES_INSERTED, Total: 0, Average: 0 ns
+Big Tests ONE_NUMBER, Total: 0, Average: 0 ns
+Big Tests ONLY_ZEROES, Total: 0, Average: 0 ns
+Super Big: RAND_with_Repeats, Total: 0, Average: 0 ns
+Super Big: REV_SORTED, Total: 0, Average: 0 ns
+Super Big: RAND_NO_REPEATS_SHUFFLED, Total: 0, Average: 0 ns
+Super Big: SORTED, Total: 0, Average: 0 ns
+Super Big: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 0, Average: 0 ns
+Super Big: ONE_NUMBER, Total: 0, Average: 0 ns
+Super Big: ONLY_ZEROES, Total: 0, Average: 0 ns
+Small Aligned: RAND_with_Repeats, Total: 10, Average: 573,164 ns
+Small Aligned: REV_SORTED, Total: 0, Average: 0 ns
+Small Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 0, Average: 0 ns
+Small Aligned: SORTED, Total: 0, Average: 0 ns
+Small Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 0, Average: 0 ns
+Small Aligned: ONE_NUMBER, Total: 0, Average: 0 ns
+Small Aligned: ONLY_ZEROES, Total: 0, Average: 0 ns
+Big Aligned: RAND_with_Repeats, Total: 10, Average: 552,040,195 ns
+Big Aligned: REV_SORTED, Total: 0, Average: 0 ns
+Big Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 0, Average: 0 ns
+Big Aligned: SORTED, Total: 0, Average: 0 ns
+Big Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 0, Average: 0 ns
+Big Aligned: ONE_NUMBER, Total: 0, Average: 0 ns
+Big Aligned: ONLY_ZEROES, Total: 0, Average: 0 ns
+Super Big Aligned: RAND_with_Repeats, Total: 0, Average: 0 ns
+Super Big Aligned: REV_SORTED, Total: 0, Average: 0 ns
+Super Big Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 0, Average: 0 ns
+Super Big Aligned: SORTED, Total: 0, Average: 0 ns
+Super Big Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 0, Average: 0 ns
+Super Big Aligned: ONE_NUMBER, Total: 0, Average: 0 ns
+Super Big Aligned: ONLY_ZEROES, Total: 0, Average: 0 ns
+ITERATION 0 : Total sum of checked time for NOT Aligned tests OK: 5,518,713,210 ns
+ITERATION 0 : Total sum of checked time for ALIGNED tests OK: 5,526,133,590 ns
+ CRITICAL ERROR  -  This Algorithm is TOO SLOW!
+Breaking Test Cycle after iteration 0!
+ TEST ERROR !!! 
