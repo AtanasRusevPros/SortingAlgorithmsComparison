@@ -1,0 +1,96 @@
+*************************************************************
+**     Detailed report one per one for each input data array 
+*************************************************************
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 32 Time : 1,785 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 37 Time : 2,231 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 64 Time : 3,571 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 128 Time : 10,265 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 256 Time : 16,958 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 512 Time : 39,273 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 1024 Time : 60,248 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2048 Time : 131,208 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2049 Time : 127,637 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2050 Time : 126,745 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 32 Time : 446 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 37 Time : 446 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 64 Time : 0 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 128 Time : 446 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 256 Time : 893 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 512 Time : 1,785 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 1024 Time : 3,124 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2048 Time : 6,694 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2049 Time : 6,248 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2050 Time : 6,248 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32 Time : 1,339 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 37 Time : 2,677 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 64 Time : 3,570 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 128 Time : 7,141 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 256 Time : 17,852 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 512 Time : 36,595 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 1024 Time : 74,976 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2048 Time : 163,787 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2049 Time : 162,002 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2050 Time : 170,034 ns
+Test Results for Small Not Aligned : SORTED Size: 32 Time : 446 ns
+Test Results for Small Not Aligned : SORTED Size: 37 Time : 446 ns
+Test Results for Small Not Aligned : SORTED Size: 64 Time : 0 ns
+Test Results for Small Not Aligned : SORTED Size: 128 Time : 446 ns
+Test Results for Small Not Aligned : SORTED Size: 256 Time : 893 ns
+Test Results for Small Not Aligned : SORTED Size: 512 Time : 1,339 ns
+Test Results for Small Not Aligned : SORTED Size: 1024 Time : 2,232 ns
+Test Results for Small Not Aligned : SORTED Size: 2048 Time : 4,463 ns
+Test Results for Small Not Aligned : SORTED Size: 2049 Time : 4,463 ns
+Test Results for Small Not Aligned : SORTED Size: 2050 Time : 4,909 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32 Time : 893 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 37 Time : 2,231 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 64 Time : 2,231 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 128 Time : 5,802 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 256 Time : 12,050 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 512 Time : 23,207 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 1024 Time : 44,628 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2048 Time : 91,042 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2049 Time : 93,720 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2050 Time : 104,877 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 32 Time : 447 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 37 Time : 446 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 64 Time : 447 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 128 Time : 446 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 256 Time : 1,339 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 512 Time : 1,785 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 1024 Time : 2,677 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2048 Time : 4,909 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2049 Time : 4,909 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2050 Time : 4,909 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 32 Time : 447 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 64 Time : 447 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 128 Time : 893 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 256 Time : 446 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 512 Time : 892 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 1024 Time : 2,231 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2048 Time : 4,463 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2049 Time : 4,909 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2050 Time : 4,909 ns
+*************************************************************
+** END Detailed report one per one for each input data array 
+*************************************************************
+
+*****************************************************
+Printing Final results !!! : 
+*****************************************************
+Algorithm Name: RusevMergeSortBasedOn2_32StaticStacksOPTIMIZED_fix  INFO: 
+
+Total Time NOT Aligned: 1,628,493 ns
+Average Small Time NOT Aligned: 23,264 ns
+Average Big Time NOT Aligned: 0 ns
+Average Super Big Time NOT Aligned: 0 ns
+
+Small Tests: RAND_with_Repeats, Total: 10, Average: 51,992 ns
+Small Tests: REV_SORTED, Total: 10, Average: 2,633 ns
+Small Tests: RAND_NO_REPEATS_SHUFFLED, Total: 10, Average: 63,997 ns
+Small Tests: SORTED, Total: 10, Average: 1,963 ns
+Small Tests: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 10, Average: 38,068 ns
+Small Tests: ONE_NUMBER, Total: 10, Average: 2,231 ns
+Small Tests: ONLY_ZEROES, Total: 10, Average: 1,963 ns
+Total sum of checked time for GENERAL tests OK: 1,628,470 ns
+ TEST SUCCESSFUL !!! 

@@ -1,0 +1,1951 @@
+########################################################
+Starting run 1 out of 5
+*************************************************************
+**     Detailed report one per one for each input data array 
+*************************************************************
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 32 Time : 2,678 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 37 Time : 1,785 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 64 Time : 3,124 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 128 Time : 10,711 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 256 Time : 37,934 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 512 Time : 96,844 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 1024 Time : 145,043 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2048 Time : 290,978 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2049 Time : 299,012 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2050 Time : 298,565 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 32 Time : 446 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 64 Time : 446 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 128 Time : 446 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 256 Time : 893 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 512 Time : 1,339 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 1024 Time : 3,124 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2048 Time : 5,801 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2049 Time : 6,248 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2050 Time : 5,802 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32 Time : 1,785 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 37 Time : 1,786 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 64 Time : 3,570 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 128 Time : 10,711 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 256 Time : 33,918 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 512 Time : 68,282 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 1024 Time : 139,241 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2048 Time : 290,532 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2049 Time : 297,226 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2050 Time : 290,085 ns
+Test Results for Small Not Aligned : SORTED Size: 32 Time : 0 ns
+Test Results for Small Not Aligned : SORTED Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : SORTED Size: 64 Time : 0 ns
+Test Results for Small Not Aligned : SORTED Size: 128 Time : 0 ns
+Test Results for Small Not Aligned : SORTED Size: 256 Time : 447 ns
+Test Results for Small Not Aligned : SORTED Size: 512 Time : 1,339 ns
+Test Results for Small Not Aligned : SORTED Size: 1024 Time : 2,678 ns
+Test Results for Small Not Aligned : SORTED Size: 2048 Time : 4,909 ns
+Test Results for Small Not Aligned : SORTED Size: 2049 Time : 4,909 ns
+Test Results for Small Not Aligned : SORTED Size: 2050 Time : 4,909 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32 Time : 1,339 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 37 Time : 1,785 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 64 Time : 3,124 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 128 Time : 11,157 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 256 Time : 27,224 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 512 Time : 54,893 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 1024 Time : 109,786 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2048 Time : 222,696 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2049 Time : 224,036 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2050 Time : 223,143 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 32 Time : 0 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 64 Time : 0 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 128 Time : 0 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 256 Time : 892 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 512 Time : 1,339 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 1024 Time : 2,678 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2048 Time : 4,909 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2049 Time : 4,909 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2050 Time : 4,463 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 32 Time : 0 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 64 Time : 0 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 128 Time : 446 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 256 Time : 892 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 512 Time : 1,338 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 1024 Time : 2,231 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2048 Time : 4,463 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2049 Time : 4,909 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2050 Time : 4,463 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32768 Time : 5,121,128 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32760 Time : 5,140,319 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32724 Time : 5,114,434 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32756 Time : 5,109,525 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32710 Time : 5,094,351 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32713 Time : 5,080,963 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32717 Time : 5,096,137 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32711 Time : 5,111,757 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32715 Time : 5,103,724 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 65536 Time : 10,463,615 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 131072 Time : 21,564,526 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 524288 Time : 90,656,696 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32768 Time : 93,274 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32760 Time : 92,827 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32724 Time : 92,827 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32756 Time : 105,323 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32710 Time : 92,827 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32713 Time : 93,273 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32717 Time : 93,274 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32711 Time : 92,828 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32715 Time : 92,382 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 65536 Time : 184,316 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 131072 Time : 370,417 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 524288 Time : 1,484,792 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32768 Time : 5,503,595 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32760 Time : 5,509,843 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32724 Time : 5,504,934 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32756 Time : 5,512,075 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32710 Time : 5,494,670 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32713 Time : 5,491,100 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32717 Time : 5,496,455 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32711 Time : 5,484,405 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32715 Time : 5,486,636 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 65536 Time : 11,468,205 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 131072 Time : 23,920,914 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 524288 Time : 103,732,421 ns
+Test Results for BIG Not Aligned : SORTED Size: 32768 Time : 72,745 ns
+Test Results for BIG Not Aligned : SORTED Size: 32760 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32724 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32756 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32710 Time : 72,745 ns
+Test Results for BIG Not Aligned : SORTED Size: 32713 Time : 72,745 ns
+Test Results for BIG Not Aligned : SORTED Size: 32717 Time : 72,745 ns
+Test Results for BIG Not Aligned : SORTED Size: 32711 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32715 Time : 72,744 ns
+Test Results for BIG Not Aligned : SORTED Size: 65536 Time : 146,382 ns
+Test Results for BIG Not Aligned : SORTED Size: 131072 Time : 293,656 ns
+Test Results for BIG Not Aligned : SORTED Size: 524288 Time : 1,175,516 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32768 Time : 3,688,105 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32760 Time : 3,698,369 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32724 Time : 3,689,444 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32756 Time : 3,700,601 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32710 Time : 3,709,527 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32713 Time : 3,690,337 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32717 Time : 3,689,891 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32711 Time : 3,684,089 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32715 Time : 3,698,370 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 65536 Time : 7,494,476 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 131072 Time : 15,229,501 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 524288 Time : 63,854,115 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32768 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32760 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32724 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32756 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32710 Time : 72,744 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32713 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32717 Time : 73,190 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32711 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32715 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 65536 Time : 147,274 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 131072 Time : 294,102 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 524288 Time : 1,175,963 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32768 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32760 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32724 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32756 Time : 72,744 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32710 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32713 Time : 72,744 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32717 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32711 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32715 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 65536 Time : 146,382 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 131072 Time : 296,334 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 524288 Time : 1,175,963 ns
+Test Results for Super-BIG Not Aligned : RAND_with_Repeats Size: 2096128 Time : 392,901,023 ns
+Test Results for Super-BIG Not Aligned : REV_SORTED Size: 2096128 Time : 5,982,013 ns
+Test Results for Super-BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2096128 Time : 455,537,670 ns
+Test Results for Super-BIG Not Aligned : SORTED Size: 2096128 Time : 4,725,273 ns
+Test Results for Super-BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2096128 Time : 270,321,509 ns
+Test Results for Super-BIG Not Aligned : ONE_NUMBER Size: 2096128 Time : 4,733,752 ns
+Test Results for Super-BIG Not Aligned : ONLY_ZEROES Size: 2096128 Time : 4,724,827 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 32 Time : 3,124 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 37 Time : 1,339 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 64 Time : 3,570 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 128 Time : 11,157 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 256 Time : 36,149 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 512 Time : 71,406 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 1024 Time : 142,811 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2048 Time : 287,855 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2049 Time : 295,887 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2050 Time : 294,549 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 32 Time : 446 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 37 Time : 446 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 64 Time : 0 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 128 Time : 446 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 256 Time : 892 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 512 Time : 1,338 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 1024 Time : 3,124 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2048 Time : 5,801 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2049 Time : 6,248 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2050 Time : 5,801 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32 Time : 1,785 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 37 Time : 1,785 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 64 Time : 3,570 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 128 Time : 12,496 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 256 Time : 33,918 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 512 Time : 67,835 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 1024 Time : 139,687 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2048 Time : 292,317 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2049 Time : 292,764 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2050 Time : 290,532 ns
+Test Results for Small ALIGNED : SORTED Size: 32 Time : 447 ns
+Test Results for Small ALIGNED : SORTED Size: 37 Time : 0 ns
+Test Results for Small ALIGNED : SORTED Size: 64 Time : 446 ns
+Test Results for Small ALIGNED : SORTED Size: 128 Time : 446 ns
+Test Results for Small ALIGNED : SORTED Size: 256 Time : 892 ns
+Test Results for Small ALIGNED : SORTED Size: 512 Time : 1,339 ns
+Test Results for Small ALIGNED : SORTED Size: 1024 Time : 2,678 ns
+Test Results for Small ALIGNED : SORTED Size: 2048 Time : 4,463 ns
+Test Results for Small ALIGNED : SORTED Size: 2049 Time : 4,909 ns
+Test Results for Small ALIGNED : SORTED Size: 2050 Time : 4,462 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32 Time : 1,339 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 37 Time : 1,785 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 64 Time : 3,124 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 128 Time : 10,711 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 256 Time : 27,223 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 512 Time : 54,893 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 1024 Time : 109,340 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2048 Time : 220,912 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2049 Time : 222,696 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2050 Time : 222,696 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 32 Time : 0 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 37 Time : 0 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 64 Time : 446 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 128 Time : 446 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 256 Time : 893 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 512 Time : 1,339 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 1024 Time : 2,231 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2048 Time : 4,463 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2049 Time : 4,909 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2050 Time : 4,463 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 32 Time : 0 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 37 Time : 447 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 64 Time : 446 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 128 Time : 446 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 256 Time : 446 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 512 Time : 1,339 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 1024 Time : 2,678 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2048 Time : 4,463 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2049 Time : 4,909 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2050 Time : 4,463 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32768 Time : 5,120,683 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32760 Time : 5,095,244 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32724 Time : 5,110,417 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32756 Time : 5,110,864 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32710 Time : 5,115,774 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32713 Time : 5,172,898 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32717 Time : 5,109,971 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32711 Time : 5,113,542 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32715 Time : 5,100,153 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 65536 Time : 10,506,905 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 131072 Time : 21,510,525 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 524288 Time : 90,638,844 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32768 Time : 93,274 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32760 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32724 Time : 91,934 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32756 Time : 92,381 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32710 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32713 Time : 93,274 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32717 Time : 94,166 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32711 Time : 92,381 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32715 Time : 92,827 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 65536 Time : 184,316 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 131072 Time : 370,417 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 524288 Time : 1,497,289 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32768 Time : 5,500,025 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32760 Time : 5,499,132 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32724 Time : 5,485,298 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32756 Time : 5,501,811 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32710 Time : 5,509,844 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32713 Time : 5,495,116 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32717 Time : 5,511,183 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32711 Time : 5,481,281 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32715 Time : 5,483,513 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 65536 Time : 11,459,279 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 131072 Time : 23,875,840 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 524288 Time : 103,852,026 ns
+Test Results for BIG ALIGNED : SORTED Size: 32768 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32760 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32724 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32756 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32710 Time : 72,744 ns
+Test Results for BIG ALIGNED : SORTED Size: 32713 Time : 72,745 ns
+Test Results for BIG ALIGNED : SORTED Size: 32717 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32711 Time : 72,744 ns
+Test Results for BIG ALIGNED : SORTED Size: 32715 Time : 72,745 ns
+Test Results for BIG ALIGNED : SORTED Size: 65536 Time : 146,382 ns
+Test Results for BIG ALIGNED : SORTED Size: 131072 Time : 293,656 ns
+Test Results for BIG ALIGNED : SORTED Size: 524288 Time : 1,177,302 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32768 Time : 3,687,659 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32760 Time : 3,697,031 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32724 Time : 3,685,873 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32756 Time : 3,689,891 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32710 Time : 3,722,023 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32713 Time : 3,722,023 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32717 Time : 3,684,535 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32711 Time : 3,677,394 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32715 Time : 3,683,196 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 65536 Time : 7,484,212 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 131072 Time : 15,196,475 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 524288 Time : 63,460,490 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32768 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32760 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32724 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32756 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32710 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32713 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32717 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32711 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32715 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 65536 Time : 148,166 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 131072 Time : 293,656 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 524288 Time : 1,175,517 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32768 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32760 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32724 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32756 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32710 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32713 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32717 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32711 Time : 73,190 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32715 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 65536 Time : 146,382 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 131072 Time : 294,995 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 524288 Time : 1,188,905 ns
+Test Results for Super-BIG ALIGNED : RAND_with_Repeats Size: 2096128 Time : 393,647,212 ns
+Test Results for Super-BIG ALIGNED : REV_SORTED Size: 2096128 Time : 5,965,055 ns
+Test Results for Super-BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2096128 Time : 453,510,193 ns
+Test Results for Super-BIG ALIGNED : SORTED Size: 2096128 Time : 4,766,332 ns
+Test Results for Super-BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2096128 Time : 269,591,385 ns
+Test Results for Super-BIG ALIGNED : ONE_NUMBER Size: 2096128 Time : 4,731,968 ns
+Test Results for Super-BIG ALIGNED : ONLY_ZEROES Size: 2096128 Time : 4,716,794 ns
+*************************************************************
+** END Detailed report one per one for each input data array 
+*************************************************************
+
+*****************************************************
+Printing Final results !!! : 
+*****************************************************
+Algorithm Name: RusevMergeSort256basedOn4_2  INFO: 
+
+Total Time NOT Aligned: 1,629,010,713 ns
+Average Small Time NOT Aligned: 46,923 ns
+Average Big Time NOT Aligned: 5,795,237 ns
+Average Super Big Time NOT Aligned: 162,703,723 ns
+
+Total Time Aligned: 1,626,645,841 ns
+Average Small Time Aligned: 46,324 ns
+Average Big Time Aligned: 5,791,359 ns
+Average Super Big Time Aligned: 162,418,419 ns
+
+Small Tests: RAND_with_Repeats, Total: 10, Average: 118,667 ns
+Small Tests: REV_SORTED, Total: 10, Average: 2,454 ns
+Small Tests: RAND_NO_REPEATS_SHUFFLED, Total: 10, Average: 113,713 ns
+Small Tests: SORTED, Total: 10, Average: 1,919 ns
+Small Tests: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 10, Average: 87,918 ns
+Small Tests: ONE_NUMBER, Total: 10, Average: 1,919 ns
+Small Tests: ONLY_ZEROES, Total: 10, Average: 1,874 ns
+Big Tests RAND_with_Repeats, Total: 12, Average: 14,054,764 ns
+Big Tests REV_SORTED, Total: 12, Average: 240,696 ns
+Big Tests RAND_NO_REPEATS_SHUFFLED, Total: 12, Average: 15,717,104 ns
+Big Tests SORTED, Total: 12, Average: 189,336 ns
+Big Tests SORTED_WITH_SOME_ZEROES_INSERTED, Total: 12, Average: 9,985,568 ns
+Big Tests ONE_NUMBER, Total: 12, Average: 189,559 ns
+Big Tests ONLY_ZEROES, Total: 12, Average: 189,634 ns
+Super Big: RAND_with_Repeats, Total: 1, Average: 392,901,023 ns
+Super Big: REV_SORTED, Total: 1, Average: 5,982,013 ns
+Super Big: RAND_NO_REPEATS_SHUFFLED, Total: 1, Average: 455,537,670 ns
+Super Big: SORTED, Total: 1, Average: 4,725,273 ns
+Super Big: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 1, Average: 270,321,509 ns
+Super Big: ONE_NUMBER, Total: 1, Average: 4,733,752 ns
+Super Big: ONLY_ZEROES, Total: 1, Average: 4,724,827 ns
+Small Aligned: RAND_with_Repeats, Total: 10, Average: 114,784 ns
+Small Aligned: REV_SORTED, Total: 10, Average: 2,454 ns
+Small Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 10, Average: 113,668 ns
+Small Aligned: SORTED, Total: 10, Average: 2,008 ns
+Small Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 10, Average: 87,471 ns
+Small Aligned: ONE_NUMBER, Total: 10, Average: 1,919 ns
+Small Aligned: ONLY_ZEROES, Total: 10, Average: 1,963 ns
+Big Aligned: RAND_with_Repeats, Total: 12, Average: 14,058,818 ns
+Big Aligned: REV_SORTED, Total: 12, Average: 240,510 ns
+Big Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 12, Average: 15,721,195 ns
+Big Aligned: SORTED, Total: 12, Average: 189,522 ns
+Big Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 12, Average: 9,949,233 ns
+Big Aligned: ONE_NUMBER, Total: 12, Average: 189,597 ns
+Big Aligned: ONLY_ZEROES, Total: 12, Average: 190,638 ns
+Super Big Aligned: RAND_with_Repeats, Total: 1, Average: 393,647,212 ns
+Super Big Aligned: REV_SORTED, Total: 1, Average: 5,965,055 ns
+Super Big Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 1, Average: 453,510,193 ns
+Super Big Aligned: SORTED, Total: 1, Average: 4,766,332 ns
+Super Big Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 1, Average: 269,591,385 ns
+Super Big Aligned: ONE_NUMBER, Total: 1, Average: 4,731,968 ns
+Super Big Aligned: ONLY_ZEROES, Total: 1, Average: 4,716,794 ns
+ITERATION 0 : Total sum of checked time for NOT Aligned tests OK: 1,629,010,639 ns
+ITERATION 0 : Total sum of checked time for ALIGNED tests OK: 1,626,645,765 ns
+########################################################
+Starting run 2 out of 5
+*************************************************************
+**     Detailed report one per one for each input data array 
+*************************************************************
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 32 Time : 1,785 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 37 Time : 2,677 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 64 Time : 3,570 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 128 Time : 10,711 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 256 Time : 38,381 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 512 Time : 72,744 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 1024 Time : 144,596 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2048 Time : 290,085 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2049 Time : 294,549 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2050 Time : 295,888 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 32 Time : 446 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 37 Time : 446 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 64 Time : 447 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 128 Time : 446 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 256 Time : 893 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 512 Time : 1,785 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 1024 Time : 3,124 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2048 Time : 6,248 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2049 Time : 5,801 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2050 Time : 6,248 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32 Time : 1,786 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 37 Time : 1,785 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 64 Time : 3,570 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 128 Time : 11,157 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 256 Time : 33,472 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 512 Time : 82,563 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 1024 Time : 141,027 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2048 Time : 291,871 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2049 Time : 291,870 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2050 Time : 290,085 ns
+Test Results for Small Not Aligned : SORTED Size: 32 Time : 0 ns
+Test Results for Small Not Aligned : SORTED Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : SORTED Size: 64 Time : 446 ns
+Test Results for Small Not Aligned : SORTED Size: 128 Time : 446 ns
+Test Results for Small Not Aligned : SORTED Size: 256 Time : 447 ns
+Test Results for Small Not Aligned : SORTED Size: 512 Time : 1,339 ns
+Test Results for Small Not Aligned : SORTED Size: 1024 Time : 2,678 ns
+Test Results for Small Not Aligned : SORTED Size: 2048 Time : 4,909 ns
+Test Results for Small Not Aligned : SORTED Size: 2049 Time : 4,463 ns
+Test Results for Small Not Aligned : SORTED Size: 2050 Time : 4,463 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32 Time : 6,694 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 37 Time : 1,339 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 64 Time : 3,570 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 128 Time : 11,157 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 256 Time : 27,223 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 512 Time : 56,232 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 1024 Time : 110,679 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2048 Time : 221,358 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2049 Time : 224,036 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2050 Time : 222,697 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 32 Time : 0 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 64 Time : 447 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 128 Time : 0 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 256 Time : 446 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 512 Time : 893 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 1024 Time : 2,677 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2048 Time : 4,463 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2049 Time : 4,463 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2050 Time : 4,463 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 32 Time : 446 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 64 Time : 0 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 128 Time : 447 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 256 Time : 892 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 512 Time : 1,339 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 1024 Time : 2,231 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2048 Time : 4,462 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2049 Time : 4,909 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2050 Time : 4,909 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32768 Time : 5,121,575 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32760 Time : 5,122,467 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32724 Time : 5,117,559 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32756 Time : 5,142,551 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32710 Time : 5,103,723 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32713 Time : 5,124,252 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32717 Time : 5,110,864 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32711 Time : 5,110,864 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32715 Time : 5,110,418 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 65536 Time : 10,531,896 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 131072 Time : 21,516,327 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 524288 Time : 90,876,715 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32768 Time : 92,382 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32760 Time : 92,381 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32724 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32756 Time : 92,381 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32710 Time : 93,720 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32713 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32717 Time : 93,274 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32711 Time : 93,273 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32715 Time : 93,274 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 65536 Time : 184,316 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 131072 Time : 369,971 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 524288 Time : 1,484,792 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32768 Time : 5,509,843 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32760 Time : 5,504,934 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32724 Time : 5,496,009 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32756 Time : 5,503,149 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32710 Time : 5,501,811 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32713 Time : 5,494,224 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32717 Time : 5,504,488 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32711 Time : 5,489,760 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32715 Time : 5,500,917 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 65536 Time : 11,465,526 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 131072 Time : 23,843,261 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 524288 Time : 103,856,489 ns
+Test Results for BIG Not Aligned : SORTED Size: 32768 Time : 74,083 ns
+Test Results for BIG Not Aligned : SORTED Size: 32760 Time : 74,084 ns
+Test Results for BIG Not Aligned : SORTED Size: 32724 Time : 73,190 ns
+Test Results for BIG Not Aligned : SORTED Size: 32756 Time : 73,190 ns
+Test Results for BIG Not Aligned : SORTED Size: 32710 Time : 72,745 ns
+Test Results for BIG Not Aligned : SORTED Size: 32713 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32717 Time : 72,744 ns
+Test Results for BIG Not Aligned : SORTED Size: 32711 Time : 72,745 ns
+Test Results for BIG Not Aligned : SORTED Size: 32715 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 65536 Time : 147,274 ns
+Test Results for BIG Not Aligned : SORTED Size: 131072 Time : 293,656 ns
+Test Results for BIG Not Aligned : SORTED Size: 524288 Time : 1,179,979 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32768 Time : 3,700,601 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32760 Time : 3,693,907 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32724 Time : 3,702,833 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32756 Time : 3,695,246 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32710 Time : 3,688,998 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32713 Time : 3,685,874 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32717 Time : 3,691,675 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32711 Time : 3,705,511 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32715 Time : 3,683,643 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 65536 Time : 7,503,848 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 131072 Time : 15,224,591 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 524288 Time : 63,586,343 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32768 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32760 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32724 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32756 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32710 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32713 Time : 72,744 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32717 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32711 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32715 Time : 72,744 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 65536 Time : 149,505 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 131072 Time : 293,656 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 524288 Time : 1,176,409 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32768 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32760 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32724 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32756 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32710 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32713 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32717 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32711 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32715 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 65536 Time : 146,381 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 131072 Time : 294,548 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 524288 Time : 1,176,856 ns
+Test Results for Super-BIG Not Aligned : RAND_with_Repeats Size: 2096128 Time : 393,203,157 ns
+Test Results for Super-BIG Not Aligned : REV_SORTED Size: 2096128 Time : 5,979,336 ns
+Test Results for Super-BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2096128 Time : 467,744,477 ns
+Test Results for Super-BIG Not Aligned : SORTED Size: 2096128 Time : 4,728,397 ns
+Test Results for Super-BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2096128 Time : 270,133,623 ns
+Test Results for Super-BIG Not Aligned : ONE_NUMBER Size: 2096128 Time : 4,720,364 ns
+Test Results for Super-BIG Not Aligned : ONLY_ZEROES Size: 2096128 Time : 4,741,786 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 32 Time : 1,786 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 37 Time : 1,785 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 64 Time : 3,571 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 128 Time : 11,157 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 256 Time : 36,596 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 512 Time : 71,406 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 1024 Time : 143,704 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2048 Time : 291,424 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2049 Time : 296,334 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2050 Time : 294,549 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 32 Time : 446 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 37 Time : 446 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 64 Time : 0 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 128 Time : 446 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 256 Time : 447 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 512 Time : 1,785 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 1024 Time : 3,124 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2048 Time : 5,802 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2049 Time : 5,801 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2050 Time : 5,802 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32 Time : 1,785 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 37 Time : 1,785 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 64 Time : 3,570 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 128 Time : 10,711 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 256 Time : 33,918 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 512 Time : 67,389 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 1024 Time : 140,580 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2048 Time : 292,317 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2049 Time : 292,318 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2050 Time : 292,764 ns
+Test Results for Small ALIGNED : SORTED Size: 32 Time : 0 ns
+Test Results for Small ALIGNED : SORTED Size: 37 Time : 0 ns
+Test Results for Small ALIGNED : SORTED Size: 64 Time : 0 ns
+Test Results for Small ALIGNED : SORTED Size: 128 Time : 0 ns
+Test Results for Small ALIGNED : SORTED Size: 256 Time : 893 ns
+Test Results for Small ALIGNED : SORTED Size: 512 Time : 1,339 ns
+Test Results for Small ALIGNED : SORTED Size: 1024 Time : 2,231 ns
+Test Results for Small ALIGNED : SORTED Size: 2048 Time : 4,462 ns
+Test Results for Small ALIGNED : SORTED Size: 2049 Time : 4,910 ns
+Test Results for Small ALIGNED : SORTED Size: 2050 Time : 4,463 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32 Time : 1,339 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 37 Time : 1,339 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 64 Time : 3,570 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 128 Time : 11,157 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 256 Time : 27,224 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 512 Time : 54,893 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 1024 Time : 109,340 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2048 Time : 221,358 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2049 Time : 223,590 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2050 Time : 222,251 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 32 Time : 446 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 37 Time : 446 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 64 Time : 446 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 128 Time : 0 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 256 Time : 892 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 512 Time : 1,338 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 1024 Time : 2,678 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2048 Time : 4,463 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2049 Time : 4,463 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2050 Time : 4,463 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 32 Time : 0 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 37 Time : 0 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 64 Time : 446 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 128 Time : 446 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 256 Time : 893 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 512 Time : 1,339 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 1024 Time : 2,232 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2048 Time : 4,909 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2049 Time : 4,463 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2050 Time : 4,909 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32768 Time : 5,121,129 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32760 Time : 5,098,368 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32724 Time : 5,118,005 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32756 Time : 5,138,981 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32710 Time : 5,118,005 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32713 Time : 5,106,848 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32717 Time : 5,077,393 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32711 Time : 5,103,277 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32715 Time : 5,106,401 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 65536 Time : 10,523,417 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 131072 Time : 21,626,559 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 524288 Time : 90,598,678 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32768 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32760 Time : 92,381 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32724 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32756 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32710 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32713 Time : 93,274 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32717 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32711 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32715 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 65536 Time : 184,763 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 131072 Time : 369,971 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 524288 Time : 1,485,239 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32768 Time : 5,651,316 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32760 Time : 5,512,521 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32724 Time : 5,500,918 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32756 Time : 5,503,596 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32710 Time : 5,504,935 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32713 Time : 5,558,935 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32717 Time : 5,496,008 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32711 Time : 5,546,439 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32715 Time : 5,478,157 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 65536 Time : 11,457,493 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 131072 Time : 23,870,038 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 524288 Time : 103,728,405 ns
+Test Results for BIG ALIGNED : SORTED Size: 32768 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32760 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32724 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32756 Time : 72,744 ns
+Test Results for BIG ALIGNED : SORTED Size: 32710 Time : 74,083 ns
+Test Results for BIG ALIGNED : SORTED Size: 32713 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32717 Time : 72,744 ns
+Test Results for BIG ALIGNED : SORTED Size: 32711 Time : 72,745 ns
+Test Results for BIG ALIGNED : SORTED Size: 32715 Time : 72,745 ns
+Test Results for BIG ALIGNED : SORTED Size: 65536 Time : 145,936 ns
+Test Results for BIG ALIGNED : SORTED Size: 131072 Time : 294,102 ns
+Test Results for BIG ALIGNED : SORTED Size: 524288 Time : 1,175,516 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32768 Time : 3,680,518 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32760 Time : 3,699,263 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32724 Time : 3,681,857 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32756 Time : 3,705,510 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32710 Time : 3,682,303 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32713 Time : 3,701,940 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32717 Time : 3,681,411 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32711 Time : 3,685,428 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32715 Time : 3,682,303 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 65536 Time : 7,473,054 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 131072 Time : 15,210,756 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 524288 Time : 63,485,929 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32768 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32760 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32724 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32756 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32710 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32713 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32717 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32711 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32715 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 65536 Time : 146,382 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 131072 Time : 293,656 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 524288 Time : 1,175,516 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32768 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32760 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32724 Time : 73,637 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32756 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32710 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32713 Time : 73,190 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32717 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32711 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32715 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 65536 Time : 146,382 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 131072 Time : 296,333 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 524288 Time : 1,175,070 ns
+Test Results for Super-BIG ALIGNED : RAND_with_Repeats Size: 2096128 Time : 392,863,088 ns
+Test Results for Super-BIG ALIGNED : REV_SORTED Size: 2096128 Time : 5,977,551 ns
+Test Results for Super-BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2096128 Time : 453,854,279 ns
+Test Results for Super-BIG ALIGNED : SORTED Size: 2096128 Time : 4,715,455 ns
+Test Results for Super-BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2096128 Time : 269,815,421 ns
+Test Results for Super-BIG ALIGNED : ONE_NUMBER Size: 2096128 Time : 4,750,266 ns
+Test Results for Super-BIG ALIGNED : ONLY_ZEROES Size: 2096128 Time : 4,719,025 ns
+*************************************************************
+** END Detailed report one per one for each input data array 
+*************************************************************
+
+*****************************************************
+Printing Final results !!! : 
+*****************************************************
+Algorithm Name: RusevMergeSort256basedOn4_2  INFO: 
+
+Total Time NOT Aligned: 1,641,448,250 ns
+Average Small Time NOT Aligned: 46,738 ns
+Average Big Time NOT Aligned: 5,796,730 ns
+Average Super Big Time NOT Aligned: 164,464,448 ns
+
+Total Time Aligned: 1,626,547,223 ns
+Average Small Time Aligned: 46,388 ns
+Average Big Time Aligned: 5,792,916 ns
+Average Super Big Time Aligned: 162,385,012 ns
+
+Small Tests: RAND_with_Repeats, Total: 10, Average: 115,498 ns
+Small Tests: REV_SORTED, Total: 10, Average: 2,588 ns
+Small Tests: RAND_NO_REPEATS_SHUFFLED, Total: 10, Average: 114,918 ns
+Small Tests: SORTED, Total: 10, Average: 1,919 ns
+Small Tests: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 10, Average: 88,498 ns
+Small Tests: ONE_NUMBER, Total: 10, Average: 1,785 ns
+Small Tests: ONLY_ZEROES, Total: 10, Average: 1,963 ns
+Big Tests RAND_with_Repeats, Total: 12, Average: 14,082,434 ns
+Big Tests REV_SORTED, Total: 12, Average: 239,469 ns
+Big Tests RAND_NO_REPEATS_SHUFFLED, Total: 12, Average: 15,722,534 ns
+Big Tests SORTED, Total: 12, Average: 190,006 ns
+Big Tests SORTED_WITH_SOME_ZEROES_INSERTED, Total: 12, Average: 9,963,589 ns
+Big Tests ONE_NUMBER, Total: 12, Average: 189,671 ns
+Big Tests ONLY_ZEROES, Total: 12, Average: 189,411 ns
+Super Big: RAND_with_Repeats, Total: 1, Average: 393,203,157 ns
+Super Big: REV_SORTED, Total: 1, Average: 5,979,336 ns
+Super Big: RAND_NO_REPEATS_SHUFFLED, Total: 1, Average: 467,744,477 ns
+Super Big: SORTED, Total: 1, Average: 4,728,397 ns
+Super Big: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 1, Average: 270,133,623 ns
+Super Big: ONE_NUMBER, Total: 1, Average: 4,720,364 ns
+Super Big: ONLY_ZEROES, Total: 1, Average: 4,741,786 ns
+Small Aligned: RAND_with_Repeats, Total: 10, Average: 115,231 ns
+Small Aligned: REV_SORTED, Total: 10, Average: 2,409 ns
+Small Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 10, Average: 113,713 ns
+Small Aligned: SORTED, Total: 10, Average: 1,829 ns
+Small Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 10, Average: 87,606 ns
+Small Aligned: ONE_NUMBER, Total: 10, Average: 1,963 ns
+Small Aligned: ONLY_ZEROES, Total: 10, Average: 1,963 ns
+Big Aligned: RAND_with_Repeats, Total: 12, Average: 14,061,421 ns
+Big Aligned: REV_SORTED, Total: 12, Average: 239,097 ns
+Big Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 12, Average: 15,734,063 ns
+Big Aligned: SORTED, Total: 12, Average: 189,448 ns
+Big Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 12, Average: 9,947,522 ns
+Big Aligned: ONE_NUMBER, Total: 12, Average: 189,299 ns
+Big Aligned: ONLY_ZEROES, Total: 12, Average: 189,559 ns
+Super Big Aligned: RAND_with_Repeats, Total: 1, Average: 392,863,088 ns
+Super Big Aligned: REV_SORTED, Total: 1, Average: 5,977,551 ns
+Super Big Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 1, Average: 453,854,279 ns
+Super Big Aligned: SORTED, Total: 1, Average: 4,715,455 ns
+Super Big Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 1, Average: 269,815,421 ns
+Super Big Aligned: ONE_NUMBER, Total: 1, Average: 4,750,266 ns
+Super Big Aligned: ONLY_ZEROES, Total: 1, Average: 4,719,025 ns
+ITERATION 1 : Total sum of checked time for NOT Aligned tests OK: 1,641,448,198 ns
+ITERATION 1 : Total sum of checked time for ALIGNED tests OK: 1,626,547,133 ns
+########################################################
+Starting run 3 out of 5
+*************************************************************
+**     Detailed report one per one for each input data array 
+*************************************************************
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 32 Time : 4,463 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 37 Time : 3,124 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 64 Time : 6,248 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 128 Time : 20,975 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 256 Time : 36,596 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 512 Time : 136,117 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 1024 Time : 272,235 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2048 Time : 560,535 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2049 Time : 562,767 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2050 Time : 568,122 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 32 Time : 446 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 64 Time : 0 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 128 Time : 893 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 256 Time : 893 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 512 Time : 1,339 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 1024 Time : 2,677 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2048 Time : 5,802 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2049 Time : 6,248 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2050 Time : 5,802 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32 Time : 1,785 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 37 Time : 1,339 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 64 Time : 3,571 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 128 Time : 10,711 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 256 Time : 33,471 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 512 Time : 69,621 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 1024 Time : 139,241 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2048 Time : 292,763 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2049 Time : 293,210 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2050 Time : 289,639 ns
+Test Results for Small Not Aligned : SORTED Size: 32 Time : 446 ns
+Test Results for Small Not Aligned : SORTED Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : SORTED Size: 64 Time : 446 ns
+Test Results for Small Not Aligned : SORTED Size: 128 Time : 447 ns
+Test Results for Small Not Aligned : SORTED Size: 256 Time : 893 ns
+Test Results for Small Not Aligned : SORTED Size: 512 Time : 1,339 ns
+Test Results for Small Not Aligned : SORTED Size: 1024 Time : 2,231 ns
+Test Results for Small Not Aligned : SORTED Size: 2048 Time : 4,463 ns
+Test Results for Small Not Aligned : SORTED Size: 2049 Time : 4,463 ns
+Test Results for Small Not Aligned : SORTED Size: 2050 Time : 4,463 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32 Time : 1,785 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 37 Time : 1,785 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 64 Time : 3,124 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 128 Time : 10,711 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 256 Time : 26,777 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 512 Time : 54,893 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 1024 Time : 110,232 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2048 Time : 221,804 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2049 Time : 223,589 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2050 Time : 223,143 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 32 Time : 447 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 64 Time : 0 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 128 Time : 0 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 256 Time : 446 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 512 Time : 1,338 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 1024 Time : 2,678 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2048 Time : 4,463 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2049 Time : 4,462 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2050 Time : 4,909 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 32 Time : 446 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 37 Time : 446 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 64 Time : 447 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 128 Time : 446 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 256 Time : 892 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 512 Time : 1,339 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 1024 Time : 2,677 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2048 Time : 4,463 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2049 Time : 4,463 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2050 Time : 4,909 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32768 Time : 6,742,931 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32760 Time : 5,128,269 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32724 Time : 5,109,526 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32756 Time : 5,138,980 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32710 Time : 5,085,872 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32713 Time : 5,103,723 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32717 Time : 5,083,195 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32711 Time : 5,112,649 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32715 Time : 5,105,955 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 65536 Time : 10,501,549 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 131072 Time : 21,553,815 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 524288 Time : 90,794,598 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32768 Time : 93,274 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32760 Time : 92,828 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32724 Time : 92,828 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32756 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32710 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32713 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32717 Time : 92,827 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32711 Time : 92,827 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32715 Time : 92,827 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 65536 Time : 183,870 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 131072 Time : 370,417 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 524288 Time : 1,484,347 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32768 Time : 5,512,521 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32760 Time : 5,511,183 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32724 Time : 5,488,868 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32756 Time : 5,509,843 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32710 Time : 5,494,224 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32713 Time : 5,506,273 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32717 Time : 5,516,537 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32711 Time : 5,484,406 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32715 Time : 5,485,297 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 65536 Time : 11,461,064 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 131072 Time : 23,892,352 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 524288 Time : 103,798,918 ns
+Test Results for BIG Not Aligned : SORTED Size: 32768 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32760 Time : 72,745 ns
+Test Results for BIG Not Aligned : SORTED Size: 32724 Time : 72,744 ns
+Test Results for BIG Not Aligned : SORTED Size: 32756 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32710 Time : 72,745 ns
+Test Results for BIG Not Aligned : SORTED Size: 32713 Time : 73,190 ns
+Test Results for BIG Not Aligned : SORTED Size: 32717 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32711 Time : 72,745 ns
+Test Results for BIG Not Aligned : SORTED Size: 32715 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 65536 Time : 146,382 ns
+Test Results for BIG Not Aligned : SORTED Size: 131072 Time : 293,656 ns
+Test Results for BIG Not Aligned : SORTED Size: 524288 Time : 1,177,748 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32768 Time : 3,702,832 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32760 Time : 3,690,336 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32724 Time : 3,695,692 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32756 Time : 3,694,800 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32710 Time : 3,696,139 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32713 Time : 3,700,602 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32717 Time : 3,684,981 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32711 Time : 3,684,089 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32715 Time : 3,684,981 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 65536 Time : 7,501,170 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 131072 Time : 15,196,475 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 524288 Time : 63,585,450 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32768 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32760 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32724 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32756 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32710 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32713 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32717 Time : 72,744 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32711 Time : 73,190 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32715 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 65536 Time : 147,721 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 131072 Time : 293,656 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 524288 Time : 1,188,905 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32768 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32760 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32724 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32756 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32710 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32713 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32717 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32711 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32715 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 65536 Time : 145,936 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 131072 Time : 294,548 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 524288 Time : 1,176,409 ns
+Test Results for Super-BIG Not Aligned : RAND_with_Repeats Size: 2096128 Time : 393,296,878 ns
+Test Results for Super-BIG Not Aligned : REV_SORTED Size: 2096128 Time : 5,983,353 ns
+Test Results for Super-BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2096128 Time : 453,527,152 ns
+Test Results for Super-BIG Not Aligned : SORTED Size: 2096128 Time : 4,724,827 ns
+Test Results for Super-BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2096128 Time : 282,283,751 ns
+Test Results for Super-BIG Not Aligned : ONE_NUMBER Size: 2096128 Time : 4,721,703 ns
+Test Results for Super-BIG Not Aligned : ONLY_ZEROES Size: 2096128 Time : 4,743,571 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 32 Time : 1,785 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 37 Time : 1,339 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 64 Time : 3,124 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 128 Time : 10,711 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 256 Time : 36,596 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 512 Time : 72,298 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 1024 Time : 142,812 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2048 Time : 290,085 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2049 Time : 295,442 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2050 Time : 294,549 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 32 Time : 446 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 37 Time : 0 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 64 Time : 446 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 128 Time : 446 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 256 Time : 893 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 512 Time : 1,339 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 1024 Time : 3,124 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2048 Time : 5,802 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2049 Time : 5,801 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2050 Time : 5,801 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32 Time : 1,785 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 37 Time : 1,785 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 64 Time : 3,571 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 128 Time : 10,710 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 256 Time : 33,917 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 512 Time : 70,066 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 1024 Time : 140,580 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2048 Time : 292,317 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2049 Time : 292,317 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2050 Time : 291,871 ns
+Test Results for Small ALIGNED : SORTED Size: 32 Time : 446 ns
+Test Results for Small ALIGNED : SORTED Size: 37 Time : 0 ns
+Test Results for Small ALIGNED : SORTED Size: 64 Time : 446 ns
+Test Results for Small ALIGNED : SORTED Size: 128 Time : 0 ns
+Test Results for Small ALIGNED : SORTED Size: 256 Time : 892 ns
+Test Results for Small ALIGNED : SORTED Size: 512 Time : 1,338 ns
+Test Results for Small ALIGNED : SORTED Size: 1024 Time : 2,232 ns
+Test Results for Small ALIGNED : SORTED Size: 2048 Time : 4,909 ns
+Test Results for Small ALIGNED : SORTED Size: 2049 Time : 4,463 ns
+Test Results for Small ALIGNED : SORTED Size: 2050 Time : 4,463 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32 Time : 1,786 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 37 Time : 1,785 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 64 Time : 3,571 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 128 Time : 10,711 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 256 Time : 26,777 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 512 Time : 54,447 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 1024 Time : 110,233 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2048 Time : 220,911 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2049 Time : 224,482 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2050 Time : 223,589 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 32 Time : 0 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 37 Time : 446 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 64 Time : 446 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 128 Time : 0 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 256 Time : 892 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 512 Time : 1,339 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 1024 Time : 2,677 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2048 Time : 4,909 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2049 Time : 4,909 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2050 Time : 4,463 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 32 Time : 446 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 37 Time : 446 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 64 Time : 0 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 128 Time : 447 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 256 Time : 446 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 512 Time : 1,339 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 1024 Time : 2,232 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2048 Time : 4,463 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2049 Time : 4,909 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2050 Time : 4,909 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32768 Time : 5,127,823 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32760 Time : 5,116,665 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32724 Time : 5,118,898 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32756 Time : 5,150,584 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32710 Time : 5,085,872 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32713 Time : 5,110,418 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32717 Time : 5,106,847 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32711 Time : 5,110,864 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32715 Time : 5,100,153 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 65536 Time : 10,531,896 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 131072 Time : 21,543,550 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 524288 Time : 90,588,861 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32768 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32760 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32724 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32756 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32710 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32713 Time : 93,273 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32717 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32711 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32715 Time : 92,381 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 65536 Time : 184,316 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 131072 Time : 371,310 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 524288 Time : 1,483,900 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32768 Time : 5,501,364 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32760 Time : 5,497,794 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32724 Time : 5,504,041 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32756 Time : 5,503,596 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32710 Time : 5,489,761 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32713 Time : 5,486,637 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32717 Time : 5,493,777 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32711 Time : 5,490,207 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32715 Time : 5,484,851 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 65536 Time : 11,469,543 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 131072 Time : 23,961,973 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 524288 Time : 103,665,924 ns
+Test Results for BIG ALIGNED : SORTED Size: 32768 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32760 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32724 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32756 Time : 74,083 ns
+Test Results for BIG ALIGNED : SORTED Size: 32710 Time : 74,084 ns
+Test Results for BIG ALIGNED : SORTED Size: 32713 Time : 72,744 ns
+Test Results for BIG ALIGNED : SORTED Size: 32717 Time : 72,744 ns
+Test Results for BIG ALIGNED : SORTED Size: 32711 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32715 Time : 72,744 ns
+Test Results for BIG ALIGNED : SORTED Size: 65536 Time : 146,381 ns
+Test Results for BIG ALIGNED : SORTED Size: 131072 Time : 293,656 ns
+Test Results for BIG ALIGNED : SORTED Size: 524288 Time : 1,175,070 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32768 Time : 3,677,394 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32760 Time : 3,693,907 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32724 Time : 3,684,982 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32756 Time : 3,697,477 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32710 Time : 3,683,643 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32713 Time : 3,680,518 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32717 Time : 3,701,047 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32711 Time : 3,682,303 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32715 Time : 3,676,502 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 65536 Time : 7,482,873 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 131072 Time : 15,228,608 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 524288 Time : 63,505,119 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32768 Time : 74,083 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32760 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32724 Time : 73,190 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32756 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32710 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32713 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32717 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32711 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32715 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 65536 Time : 145,935 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 131072 Time : 293,210 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 524288 Time : 1,175,070 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32768 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32760 Time : 74,083 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32724 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32756 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32710 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32713 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32717 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32711 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32715 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 65536 Time : 145,936 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 131072 Time : 293,656 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 524288 Time : 1,175,071 ns
+Test Results for Super-BIG ALIGNED : RAND_with_Repeats Size: 2096128 Time : 392,051,294 ns
+Test Results for Super-BIG ALIGNED : REV_SORTED Size: 2096128 Time : 5,970,411 ns
+Test Results for Super-BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2096128 Time : 453,408,440 ns
+Test Results for Super-BIG ALIGNED : SORTED Size: 2096128 Time : 4,726,166 ns
+Test Results for Super-BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2096128 Time : 269,546,756 ns
+Test Results for Super-BIG ALIGNED : ONE_NUMBER Size: 2096128 Time : 4,756,960 ns
+Test Results for Super-BIG ALIGNED : ONLY_ZEROES Size: 2096128 Time : 4,729,736 ns
+*************************************************************
+** END Detailed report one per one for each input data array 
+*************************************************************
+
+*****************************************************
+Printing Final results !!! : 
+*****************************************************
+Algorithm Name: RusevMergeSort256basedOn4_2  INFO: 
+
+Total Time NOT Aligned: 1,641,895,434 ns
+Average Small Time NOT Aligned: 60,956 ns
+Average Big Time NOT Aligned: 5,813,657 ns
+Average Super Big Time NOT Aligned: 164,183,033 ns
+
+Total Time Aligned: 1,624,762,513 ns
+Average Small Time Aligned: 46,413 ns
+Average Big Time Aligned: 5,789,568 ns
+Average Super Big Time Aligned: 162,169,966 ns
+
+Small Tests: RAND_with_Repeats, Total: 10, Average: 217,118 ns
+Small Tests: REV_SORTED, Total: 10, Average: 2,410 ns
+Small Tests: RAND_NO_REPEATS_SHUFFLED, Total: 10, Average: 113,535 ns
+Small Tests: SORTED, Total: 10, Average: 1,919 ns
+Small Tests: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 10, Average: 87,784 ns
+Small Tests: ONE_NUMBER, Total: 10, Average: 1,874 ns
+Small Tests: ONLY_ZEROES, Total: 10, Average: 2,052 ns
+Big Tests RAND_with_Repeats, Total: 12, Average: 14,205,088 ns
+Big Tests REV_SORTED, Total: 12, Average: 239,320 ns
+Big Tests RAND_NO_REPEATS_SHUFFLED, Total: 12, Average: 15,721,790 ns
+Big Tests SORTED, Total: 12, Average: 189,559 ns
+Big Tests SORTED_WITH_SOME_ZEROES_INSERTED, Total: 12, Average: 9,959,795 ns
+Big Tests ONE_NUMBER, Total: 12, Average: 190,638 ns
+Big Tests ONLY_ZEROES, Total: 12, Average: 189,411 ns
+Super Big: RAND_with_Repeats, Total: 1, Average: 393,296,878 ns
+Super Big: REV_SORTED, Total: 1, Average: 5,983,353 ns
+Super Big: RAND_NO_REPEATS_SHUFFLED, Total: 1, Average: 453,527,152 ns
+Super Big: SORTED, Total: 1, Average: 4,724,827 ns
+Super Big: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 1, Average: 282,283,751 ns
+Super Big: ONE_NUMBER, Total: 1, Average: 4,721,703 ns
+Super Big: ONLY_ZEROES, Total: 1, Average: 4,743,571 ns
+Small Aligned: RAND_with_Repeats, Total: 10, Average: 114,874 ns
+Small Aligned: REV_SORTED, Total: 10, Average: 2,409 ns
+Small Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 10, Average: 113,891 ns
+Small Aligned: SORTED, Total: 10, Average: 1,918 ns
+Small Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 10, Average: 87,829 ns
+Small Aligned: ONE_NUMBER, Total: 10, Average: 2,008 ns
+Small Aligned: ONLY_ZEROES, Total: 10, Average: 1,963 ns
+Big Aligned: RAND_with_Repeats, Total: 12, Average: 14,057,702 ns
+Big Aligned: REV_SORTED, Total: 12, Average: 239,060 ns
+Big Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 12, Average: 15,712,455 ns
+Big Aligned: SORTED, Total: 12, Average: 189,522 ns
+Big Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 12, Average: 9,949,531 ns
+Big Aligned: ONE_NUMBER, Total: 12, Average: 189,373 ns
+Big Aligned: ONLY_ZEROES, Total: 12, Average: 189,336 ns
+Super Big Aligned: RAND_with_Repeats, Total: 1, Average: 392,051,294 ns
+Super Big Aligned: REV_SORTED, Total: 1, Average: 5,970,411 ns
+Super Big Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 1, Average: 453,408,440 ns
+Super Big Aligned: SORTED, Total: 1, Average: 4,726,166 ns
+Super Big Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 1, Average: 269,546,756 ns
+Super Big Aligned: ONE_NUMBER, Total: 1, Average: 4,756,960 ns
+Super Big Aligned: ONLY_ZEROES, Total: 1, Average: 4,729,736 ns
+ITERATION 2 : Total sum of checked time for NOT Aligned tests OK: 1,641,895,367 ns
+ITERATION 2 : Total sum of checked time for ALIGNED tests OK: 1,624,762,431 ns
+########################################################
+Starting run 4 out of 5
+*************************************************************
+**     Detailed report one per one for each input data array 
+*************************************************************
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 32 Time : 2,231 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 37 Time : 1,786 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 64 Time : 3,570 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 128 Time : 10,711 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 256 Time : 40,165 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 512 Time : 79,439 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 1024 Time : 147,721 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2048 Time : 290,978 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2049 Time : 298,119 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2050 Time : 296,780 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 32 Time : 446 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 64 Time : 447 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 128 Time : 447 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 256 Time : 892 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 512 Time : 1,785 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 1024 Time : 3,124 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2048 Time : 5,802 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2049 Time : 5,801 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2050 Time : 5,802 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32 Time : 3,124 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 37 Time : 1,339 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 64 Time : 3,124 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 128 Time : 11,158 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 256 Time : 34,364 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 512 Time : 69,621 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 1024 Time : 139,688 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2048 Time : 292,317 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2049 Time : 291,425 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2050 Time : 292,317 ns
+Test Results for Small Not Aligned : SORTED Size: 32 Time : 447 ns
+Test Results for Small Not Aligned : SORTED Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : SORTED Size: 64 Time : 446 ns
+Test Results for Small Not Aligned : SORTED Size: 128 Time : 447 ns
+Test Results for Small Not Aligned : SORTED Size: 256 Time : 447 ns
+Test Results for Small Not Aligned : SORTED Size: 512 Time : 1,339 ns
+Test Results for Small Not Aligned : SORTED Size: 1024 Time : 2,677 ns
+Test Results for Small Not Aligned : SORTED Size: 2048 Time : 4,909 ns
+Test Results for Small Not Aligned : SORTED Size: 2049 Time : 4,462 ns
+Test Results for Small Not Aligned : SORTED Size: 2050 Time : 4,909 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32 Time : 8,480 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 37 Time : 1,785 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 64 Time : 3,124 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 128 Time : 10,711 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 256 Time : 27,670 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 512 Time : 56,232 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 1024 Time : 109,786 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2048 Time : 221,804 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2049 Time : 223,589 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2050 Time : 224,035 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 32 Time : 447 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 64 Time : 446 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 128 Time : 446 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 256 Time : 893 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 512 Time : 1,339 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 1024 Time : 2,678 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2048 Time : 4,909 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2049 Time : 4,909 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2050 Time : 4,463 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 32 Time : 0 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 64 Time : 446 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 128 Time : 446 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 256 Time : 893 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 512 Time : 1,339 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 1024 Time : 2,231 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2048 Time : 4,909 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2049 Time : 4,910 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2050 Time : 4,909 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32768 Time : 5,120,683 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32760 Time : 5,121,129 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32724 Time : 5,090,335 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32756 Time : 5,135,856 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32710 Time : 5,118,005 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32713 Time : 5,105,508 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32717 Time : 5,105,508 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32711 Time : 5,110,864 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32715 Time : 5,101,492 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 65536 Time : 10,458,706 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 131072 Time : 21,642,179 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 524288 Time : 90,615,637 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32768 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32760 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32724 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32756 Time : 92,828 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32710 Time : 92,828 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32713 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32717 Time : 92,382 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32711 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32715 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 65536 Time : 183,870 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 131072 Time : 373,541 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 524288 Time : 1,485,685 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32768 Time : 5,510,290 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32760 Time : 5,505,827 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32724 Time : 5,485,744 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32756 Time : 5,555,811 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32710 Time : 5,489,314 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32713 Time : 5,482,174 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32717 Time : 5,502,257 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32711 Time : 5,495,116 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32715 Time : 5,492,439 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 65536 Time : 11,480,700 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 131072 Time : 23,881,195 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 524288 Time : 103,998,854 ns
+Test Results for BIG Not Aligned : SORTED Size: 32768 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32760 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32724 Time : 74,083 ns
+Test Results for BIG Not Aligned : SORTED Size: 32756 Time : 72,745 ns
+Test Results for BIG Not Aligned : SORTED Size: 32710 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32713 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32717 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32711 Time : 72,744 ns
+Test Results for BIG Not Aligned : SORTED Size: 32715 Time : 72,744 ns
+Test Results for BIG Not Aligned : SORTED Size: 65536 Time : 146,382 ns
+Test Results for BIG Not Aligned : SORTED Size: 131072 Time : 293,656 ns
+Test Results for BIG Not Aligned : SORTED Size: 524288 Time : 1,175,070 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32768 Time : 3,687,212 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32760 Time : 3,701,494 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32724 Time : 3,686,766 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32756 Time : 3,704,172 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32710 Time : 3,684,535 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32713 Time : 3,685,428 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32717 Time : 3,691,229 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32711 Time : 3,688,552 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32715 Time : 3,684,981 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 65536 Time : 7,494,030 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 131072 Time : 15,221,468 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 524288 Time : 63,573,401 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32768 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32760 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32724 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32756 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32710 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32713 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32717 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32711 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32715 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 65536 Time : 146,382 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 131072 Time : 293,656 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 524288 Time : 1,176,409 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32768 Time : 73,637 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32760 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32724 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32756 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32710 Time : 73,190 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32713 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32717 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32711 Time : 72,744 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32715 Time : 72,744 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 65536 Time : 145,935 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 131072 Time : 293,656 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 524288 Time : 1,175,070 ns
+Test Results for Super-BIG Not Aligned : RAND_with_Repeats Size: 2096128 Time : 392,905,931 ns
+Test Results for Super-BIG Not Aligned : REV_SORTED Size: 2096128 Time : 5,988,708 ns
+Test Results for Super-BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2096128 Time : 453,830,180 ns
+Test Results for Super-BIG Not Aligned : SORTED Size: 2096128 Time : 4,720,364 ns
+Test Results for Super-BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2096128 Time : 269,774,809 ns
+Test Results for Super-BIG Not Aligned : ONE_NUMBER Size: 2096128 Time : 4,722,149 ns
+Test Results for Super-BIG Not Aligned : ONLY_ZEROES Size: 2096128 Time : 4,761,869 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 32 Time : 2,231 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 37 Time : 1,785 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 64 Time : 3,570 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 128 Time : 11,157 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 256 Time : 38,381 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 512 Time : 71,405 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 1024 Time : 143,258 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2048 Time : 291,425 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2049 Time : 295,442 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2050 Time : 294,995 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 32 Time : 446 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 37 Time : 0 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 64 Time : 0 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 128 Time : 447 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 256 Time : 893 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 512 Time : 1,339 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 1024 Time : 3,124 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2048 Time : 6,248 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2049 Time : 5,802 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2050 Time : 5,802 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32 Time : 1,785 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 37 Time : 1,785 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 64 Time : 3,124 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 128 Time : 11,157 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 256 Time : 33,471 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 512 Time : 68,728 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 1024 Time : 140,580 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2048 Time : 291,871 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2049 Time : 292,317 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2050 Time : 291,424 ns
+Test Results for Small ALIGNED : SORTED Size: 32 Time : 0 ns
+Test Results for Small ALIGNED : SORTED Size: 37 Time : 446 ns
+Test Results for Small ALIGNED : SORTED Size: 64 Time : 0 ns
+Test Results for Small ALIGNED : SORTED Size: 128 Time : 446 ns
+Test Results for Small ALIGNED : SORTED Size: 256 Time : 446 ns
+Test Results for Small ALIGNED : SORTED Size: 512 Time : 1,339 ns
+Test Results for Small ALIGNED : SORTED Size: 1024 Time : 2,232 ns
+Test Results for Small ALIGNED : SORTED Size: 2048 Time : 4,463 ns
+Test Results for Small ALIGNED : SORTED Size: 2049 Time : 4,909 ns
+Test Results for Small ALIGNED : SORTED Size: 2050 Time : 4,463 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32 Time : 1,339 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 37 Time : 1,785 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 64 Time : 3,124 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 128 Time : 10,711 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 256 Time : 27,224 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 512 Time : 54,446 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 1024 Time : 110,232 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2048 Time : 221,804 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2049 Time : 223,590 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2050 Time : 222,697 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 32 Time : 0 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 37 Time : 0 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 64 Time : 0 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 128 Time : 447 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 256 Time : 446 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 512 Time : 1,338 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 1024 Time : 2,232 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2048 Time : 4,463 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2049 Time : 4,909 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2050 Time : 4,463 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 32 Time : 446 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 37 Time : 446 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 64 Time : 0 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 128 Time : 447 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 256 Time : 893 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 512 Time : 1,338 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 1024 Time : 2,232 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2048 Time : 4,462 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2049 Time : 4,462 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2050 Time : 4,910 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32768 Time : 5,129,162 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32760 Time : 5,117,558 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32724 Time : 5,113,988 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32756 Time : 5,144,782 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32710 Time : 5,087,211 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32713 Time : 5,110,418 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32717 Time : 5,099,707 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32711 Time : 5,105,955 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32715 Time : 5,109,078 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 65536 Time : 10,464,507 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 131072 Time : 21,547,567 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 524288 Time : 90,478,628 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32768 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32760 Time : 92,381 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32724 Time : 92,381 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32756 Time : 92,381 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32710 Time : 91,934 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32713 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32717 Time : 92,381 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32711 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32715 Time : 92,381 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 65536 Time : 184,316 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 131072 Time : 371,310 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 524288 Time : 1,481,669 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32768 Time : 5,515,645 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32760 Time : 5,501,365 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32724 Time : 5,495,116 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32756 Time : 5,500,472 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32710 Time : 5,476,372 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32713 Time : 5,485,298 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32717 Time : 5,487,083 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32711 Time : 5,497,794 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32715 Time : 5,499,578 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 65536 Time : 11,517,742 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 131072 Time : 23,845,938 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 524288 Time : 103,569,973 ns
+Test Results for BIG ALIGNED : SORTED Size: 32768 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32760 Time : 72,744 ns
+Test Results for BIG ALIGNED : SORTED Size: 32724 Time : 72,745 ns
+Test Results for BIG ALIGNED : SORTED Size: 32756 Time : 74,084 ns
+Test Results for BIG ALIGNED : SORTED Size: 32710 Time : 72,745 ns
+Test Results for BIG ALIGNED : SORTED Size: 32713 Time : 72,744 ns
+Test Results for BIG ALIGNED : SORTED Size: 32717 Time : 72,744 ns
+Test Results for BIG ALIGNED : SORTED Size: 32711 Time : 72,745 ns
+Test Results for BIG ALIGNED : SORTED Size: 32715 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 65536 Time : 146,381 ns
+Test Results for BIG ALIGNED : SORTED Size: 131072 Time : 294,102 ns
+Test Results for BIG ALIGNED : SORTED Size: 524288 Time : 1,175,071 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32768 Time : 3,685,427 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32760 Time : 3,689,890 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32724 Time : 3,677,841 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32756 Time : 3,693,014 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32710 Time : 3,685,428 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32713 Time : 3,684,535 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32717 Time : 3,682,304 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32711 Time : 3,698,370 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32715 Time : 3,727,378 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 65536 Time : 7,513,666 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 131072 Time : 15,222,359 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 524288 Time : 63,809,932 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32768 Time : 74,084 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32760 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32724 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32756 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32710 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32713 Time : 73,190 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32717 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32711 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32715 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 65536 Time : 146,382 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 131072 Time : 294,549 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 524288 Time : 1,178,640 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32768 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32760 Time : 74,083 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32724 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32756 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32710 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32713 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32717 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32711 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32715 Time : 73,190 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 65536 Time : 147,720 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 131072 Time : 293,656 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 524288 Time : 1,175,516 ns
+Test Results for Super-BIG ALIGNED : RAND_with_Repeats Size: 2096128 Time : 391,841,986 ns
+Test Results for Super-BIG ALIGNED : REV_SORTED Size: 2096128 Time : 5,990,047 ns
+Test Results for Super-BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2096128 Time : 452,962,155 ns
+Test Results for Super-BIG ALIGNED : SORTED Size: 2096128 Time : 4,748,033 ns
+Test Results for Super-BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2096128 Time : 269,235,695 ns
+Test Results for Super-BIG ALIGNED : ONE_NUMBER Size: 2096128 Time : 4,777,043 ns
+Test Results for Super-BIG ALIGNED : ONLY_ZEROES Size: 2096128 Time : 4,777,043 ns
+*************************************************************
+** END Detailed report one per one for each input data array 
+*************************************************************
+
+*****************************************************
+Printing Final results !!! : 
+*****************************************************
+Algorithm Name: RusevMergeSort256basedOn4_2  INFO: 
+
+Total Time NOT Aligned: 1,626,788,218 ns
+Average Small Time NOT Aligned: 46,891 ns
+Average Big Time NOT Aligned: 5,795,259 ns
+Average Super Big Time NOT Aligned: 162,386,287 ns
+
+Total Time Aligned: 1,623,943,138 ns
+Average Small Time Aligned: 46,394 ns
+Average Big Time Aligned: 5,790,041 ns
+Average Super Big Time Aligned: 162,047,428 ns
+
+Small Tests: RAND_with_Repeats, Total: 10, Average: 117,150 ns
+Small Tests: REV_SORTED, Total: 10, Average: 2,454 ns
+Small Tests: RAND_NO_REPEATS_SHUFFLED, Total: 10, Average: 113,847 ns
+Small Tests: SORTED, Total: 10, Average: 2,008 ns
+Small Tests: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 10, Average: 88,721 ns
+Small Tests: ONE_NUMBER, Total: 10, Average: 2,053 ns
+Small Tests: ONLY_ZEROES, Total: 10, Average: 2,008 ns
+Big Tests RAND_with_Repeats, Total: 12, Average: 14,060,491 ns
+Big Tests REV_SORTED, Total: 12, Average: 239,395 ns
+Big Tests RAND_NO_REPEATS_SHUFFLED, Total: 12, Average: 15,739,976 ns
+Big Tests SORTED, Total: 12, Average: 189,448 ns
+Big Tests SORTED_WITH_SOME_ZEROES_INSERTED, Total: 12, Average: 9,958,605 ns
+Big Tests ONE_NUMBER, Total: 12, Average: 189,522 ns
+Big Tests ONLY_ZEROES, Total: 12, Average: 189,373 ns
+Super Big: RAND_with_Repeats, Total: 1, Average: 392,905,931 ns
+Super Big: REV_SORTED, Total: 1, Average: 5,988,708 ns
+Super Big: RAND_NO_REPEATS_SHUFFLED, Total: 1, Average: 453,830,180 ns
+Super Big: SORTED, Total: 1, Average: 4,720,364 ns
+Super Big: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 1, Average: 269,774,809 ns
+Super Big: ONE_NUMBER, Total: 1, Average: 4,722,149 ns
+Super Big: ONLY_ZEROES, Total: 1, Average: 4,761,869 ns
+Small Aligned: RAND_with_Repeats, Total: 10, Average: 115,364 ns
+Small Aligned: REV_SORTED, Total: 10, Average: 2,410 ns
+Small Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 10, Average: 113,624 ns
+Small Aligned: SORTED, Total: 10, Average: 1,874 ns
+Small Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 10, Average: 87,695 ns
+Small Aligned: ONE_NUMBER, Total: 10, Average: 1,829 ns
+Small Aligned: ONLY_ZEROES, Total: 10, Average: 1,963 ns
+Big Aligned: RAND_with_Repeats, Total: 12, Average: 14,042,380 ns
+Big Aligned: REV_SORTED, Total: 12, Average: 238,911 ns
+Big Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 12, Average: 15,699,364 ns
+Big Aligned: SORTED, Total: 12, Average: 189,373 ns
+Big Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 12, Average: 9,980,845 ns
+Big Aligned: ONE_NUMBER, Total: 12, Average: 189,857 ns
+Big Aligned: ONLY_ZEROES, Total: 12, Average: 189,559 ns
+Super Big Aligned: RAND_with_Repeats, Total: 1, Average: 391,841,986 ns
+Super Big Aligned: REV_SORTED, Total: 1, Average: 5,990,047 ns
+Super Big Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 1, Average: 452,962,155 ns
+Super Big Aligned: SORTED, Total: 1, Average: 4,748,033 ns
+Super Big Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 1, Average: 269,235,695 ns
+Super Big Aligned: ONE_NUMBER, Total: 1, Average: 4,777,043 ns
+Super Big Aligned: ONLY_ZEROES, Total: 1, Average: 4,777,043 ns
+ITERATION 3 : Total sum of checked time for NOT Aligned tests OK: 1,626,788,140 ns
+ITERATION 3 : Total sum of checked time for ALIGNED tests OK: 1,623,943,060 ns
+########################################################
+Starting run 5 out of 5
+*************************************************************
+**     Detailed report one per one for each input data array 
+*************************************************************
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 32 Time : 4,463 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 37 Time : 1,785 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 64 Time : 6,694 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 128 Time : 20,976 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 256 Time : 36,149 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 512 Time : 137,456 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 1024 Time : 272,234 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2048 Time : 558,303 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2049 Time : 562,320 ns
+Test Results for Small Not Aligned : RAND_with_Repeats Size: 2050 Time : 557,857 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 32 Time : 446 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 37 Time : 447 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 64 Time : 446 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 128 Time : 446 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 256 Time : 892 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 512 Time : 1,785 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 1024 Time : 3,571 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2048 Time : 6,248 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2049 Time : 6,248 ns
+Test Results for Small Not Aligned : REV_SORTED Size: 2050 Time : 5,802 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32 Time : 1,785 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 37 Time : 1,339 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 64 Time : 3,570 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 128 Time : 10,711 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 256 Time : 33,917 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 512 Time : 66,943 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 1024 Time : 139,687 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2048 Time : 294,549 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2049 Time : 291,424 ns
+Test Results for Small Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2050 Time : 290,086 ns
+Test Results for Small Not Aligned : SORTED Size: 32 Time : 446 ns
+Test Results for Small Not Aligned : SORTED Size: 37 Time : 446 ns
+Test Results for Small Not Aligned : SORTED Size: 64 Time : 446 ns
+Test Results for Small Not Aligned : SORTED Size: 128 Time : 446 ns
+Test Results for Small Not Aligned : SORTED Size: 256 Time : 892 ns
+Test Results for Small Not Aligned : SORTED Size: 512 Time : 1,339 ns
+Test Results for Small Not Aligned : SORTED Size: 1024 Time : 2,677 ns
+Test Results for Small Not Aligned : SORTED Size: 2048 Time : 4,463 ns
+Test Results for Small Not Aligned : SORTED Size: 2049 Time : 4,463 ns
+Test Results for Small Not Aligned : SORTED Size: 2050 Time : 4,909 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32 Time : 1,339 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 37 Time : 1,785 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 64 Time : 3,571 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 128 Time : 10,711 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 256 Time : 27,223 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 512 Time : 54,893 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 1024 Time : 111,125 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2048 Time : 220,911 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2049 Time : 223,590 ns
+Test Results for Small Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2050 Time : 222,250 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 32 Time : 446 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 37 Time : 446 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 64 Time : 446 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 128 Time : 447 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 256 Time : 892 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 512 Time : 893 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 1024 Time : 2,677 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2048 Time : 4,909 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2049 Time : 4,910 ns
+Test Results for Small Not Aligned : ONE_NUMBER Size: 2050 Time : 4,909 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 32 Time : 0 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 37 Time : 0 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 64 Time : 446 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 128 Time : 447 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 256 Time : 892 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 512 Time : 1,339 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 1024 Time : 2,232 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2048 Time : 4,909 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2049 Time : 4,909 ns
+Test Results for Small Not Aligned : ONLY_ZEROES Size: 2050 Time : 4,463 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32768 Time : 7,913,092 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32760 Time : 5,183,163 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32724 Time : 5,119,343 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32756 Time : 5,109,972 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32710 Time : 5,115,327 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32713 Time : 5,105,955 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32717 Time : 5,113,095 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32711 Time : 5,113,988 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 32715 Time : 5,110,418 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 65536 Time : 10,516,277 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 131072 Time : 21,636,378 ns
+Test Results for BIG Not Aligned : RAND_with_Repeats Size: 524288 Time : 90,599,125 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32768 Time : 92,381 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32760 Time : 103,092 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32724 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32756 Time : 92,381 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32710 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32713 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32717 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32711 Time : 91,934 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 32715 Time : 91,935 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 65536 Time : 184,762 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 131072 Time : 370,417 ns
+Test Results for BIG Not Aligned : REV_SORTED Size: 524288 Time : 1,483,454 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32768 Time : 5,512,968 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32760 Time : 5,502,703 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32724 Time : 5,497,794 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32756 Time : 5,504,041 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32710 Time : 5,491,992 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32713 Time : 5,476,372 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32717 Time : 5,499,579 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32711 Time : 5,494,670 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 32715 Time : 5,485,745 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 65536 Time : 11,463,741 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 131072 Time : 23,826,749 ns
+Test Results for BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 524288 Time : 103,648,966 ns
+Test Results for BIG Not Aligned : SORTED Size: 32768 Time : 73,637 ns
+Test Results for BIG Not Aligned : SORTED Size: 32760 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32724 Time : 72,745 ns
+Test Results for BIG Not Aligned : SORTED Size: 32756 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32710 Time : 72,744 ns
+Test Results for BIG Not Aligned : SORTED Size: 32713 Time : 72,745 ns
+Test Results for BIG Not Aligned : SORTED Size: 32717 Time : 72,744 ns
+Test Results for BIG Not Aligned : SORTED Size: 32711 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 32715 Time : 73,191 ns
+Test Results for BIG Not Aligned : SORTED Size: 65536 Time : 146,382 ns
+Test Results for BIG Not Aligned : SORTED Size: 131072 Time : 296,334 ns
+Test Results for BIG Not Aligned : SORTED Size: 524288 Time : 1,175,070 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32768 Time : 3,689,444 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32760 Time : 3,703,725 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32724 Time : 3,689,444 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32756 Time : 3,702,832 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32710 Time : 3,680,964 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32713 Time : 3,686,766 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32717 Time : 3,691,676 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32711 Time : 3,681,858 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32715 Time : 3,705,957 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 65536 Time : 7,486,443 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 131072 Time : 15,237,979 ns
+Test Results for BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 524288 Time : 63,877,321 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32768 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32760 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32724 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32756 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32710 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32713 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32717 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32711 Time : 74,530 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 32715 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 65536 Time : 147,720 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 131072 Time : 293,656 ns
+Test Results for BIG Not Aligned : ONE_NUMBER Size: 524288 Time : 1,177,748 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32768 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32760 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32724 Time : 73,191 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32756 Time : 73,190 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32710 Time : 72,744 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32713 Time : 72,745 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32717 Time : 72,744 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32711 Time : 74,976 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 32715 Time : 74,084 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 65536 Time : 146,382 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 131072 Time : 294,549 ns
+Test Results for BIG Not Aligned : ONLY_ZEROES Size: 524288 Time : 1,175,071 ns
+Test Results for Super-BIG Not Aligned : RAND_with_Repeats Size: 2096128 Time : 396,490,052 ns
+Test Results for Super-BIG Not Aligned : REV_SORTED Size: 2096128 Time : 6,000,311 ns
+Test Results for Super-BIG Not Aligned : RAND_NO_REPEATS_SHUFFLED Size: 2096128 Time : 453,133,528 ns
+Test Results for Super-BIG Not Aligned : SORTED Size: 2096128 Time : 4,756,959 ns
+Test Results for Super-BIG Not Aligned : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2096128 Time : 269,698,940 ns
+Test Results for Super-BIG Not Aligned : ONE_NUMBER Size: 2096128 Time : 4,898,432 ns
+Test Results for Super-BIG Not Aligned : ONLY_ZEROES Size: 2096128 Time : 4,907,804 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 32 Time : 1,785 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 37 Time : 1,786 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 64 Time : 4,017 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 128 Time : 11,157 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 256 Time : 39,274 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 512 Time : 75,868 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 1024 Time : 147,721 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2048 Time : 297,226 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2049 Time : 295,887 ns
+Test Results for Small ALIGNED : RAND_with_Repeats Size: 2050 Time : 296,334 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 32 Time : 446 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 37 Time : 0 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 64 Time : 446 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 128 Time : 446 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 256 Time : 892 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 512 Time : 1,785 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 1024 Time : 2,678 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2048 Time : 5,801 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2049 Time : 5,802 ns
+Test Results for Small ALIGNED : REV_SORTED Size: 2050 Time : 5,802 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32 Time : 1,785 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 37 Time : 1,785 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 64 Time : 3,571 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 128 Time : 11,157 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 256 Time : 33,918 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 512 Time : 67,835 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 1024 Time : 139,688 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2048 Time : 291,871 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2049 Time : 291,871 ns
+Test Results for Small ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2050 Time : 290,978 ns
+Test Results for Small ALIGNED : SORTED Size: 32 Time : 0 ns
+Test Results for Small ALIGNED : SORTED Size: 37 Time : 446 ns
+Test Results for Small ALIGNED : SORTED Size: 64 Time : 446 ns
+Test Results for Small ALIGNED : SORTED Size: 128 Time : 447 ns
+Test Results for Small ALIGNED : SORTED Size: 256 Time : 447 ns
+Test Results for Small ALIGNED : SORTED Size: 512 Time : 1,338 ns
+Test Results for Small ALIGNED : SORTED Size: 1024 Time : 2,231 ns
+Test Results for Small ALIGNED : SORTED Size: 2048 Time : 4,910 ns
+Test Results for Small ALIGNED : SORTED Size: 2049 Time : 4,463 ns
+Test Results for Small ALIGNED : SORTED Size: 2050 Time : 5,355 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32 Time : 1,785 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 37 Time : 2,232 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 64 Time : 3,570 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 128 Time : 11,157 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 256 Time : 27,224 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 512 Time : 54,447 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 1024 Time : 110,233 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2048 Time : 220,466 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2049 Time : 225,374 ns
+Test Results for Small ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2050 Time : 222,251 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 32 Time : 0 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 37 Time : 446 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 64 Time : 0 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 128 Time : 446 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 256 Time : 446 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 512 Time : 1,339 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 1024 Time : 2,678 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2048 Time : 4,463 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2049 Time : 4,910 ns
+Test Results for Small ALIGNED : ONE_NUMBER Size: 2050 Time : 4,462 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 32 Time : 447 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 37 Time : 0 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 64 Time : 446 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 128 Time : 447 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 256 Time : 447 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 512 Time : 1,339 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 1024 Time : 2,231 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2048 Time : 4,910 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2049 Time : 4,463 ns
+Test Results for Small ALIGNED : ONLY_ZEROES Size: 2050 Time : 4,462 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32768 Time : 5,139,426 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32760 Time : 5,121,129 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32724 Time : 5,105,062 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32756 Time : 5,144,335 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32710 Time : 5,124,253 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32713 Time : 5,177,361 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32717 Time : 5,113,542 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32711 Time : 5,124,252 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 32715 Time : 5,119,790 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 65536 Time : 10,560,905 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 131072 Time : 21,743,933 ns
+Test Results for BIG ALIGNED : RAND_with_Repeats Size: 524288 Time : 90,845,475 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32768 Time : 92,381 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32760 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32724 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32756 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32710 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32713 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32717 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32711 Time : 92,381 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 32715 Time : 91,935 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 65536 Time : 184,762 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 131072 Time : 371,310 ns
+Test Results for BIG ALIGNED : REV_SORTED Size: 524288 Time : 1,483,008 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32768 Time : 5,493,777 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32760 Time : 5,499,579 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32724 Time : 5,503,149 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32756 Time : 5,504,934 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32710 Time : 5,491,099 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32713 Time : 5,475,480 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32717 Time : 5,489,314 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32711 Time : 5,482,173 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 32715 Time : 5,490,653 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 65536 Time : 11,510,155 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 131072 Time : 23,899,939 ns
+Test Results for BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 524288 Time : 107,859,225 ns
+Test Results for BIG ALIGNED : SORTED Size: 32768 Time : 72,745 ns
+Test Results for BIG ALIGNED : SORTED Size: 32760 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 32724 Time : 72,745 ns
+Test Results for BIG ALIGNED : SORTED Size: 32756 Time : 73,190 ns
+Test Results for BIG ALIGNED : SORTED Size: 32710 Time : 72,744 ns
+Test Results for BIG ALIGNED : SORTED Size: 32713 Time : 72,745 ns
+Test Results for BIG ALIGNED : SORTED Size: 32717 Time : 72,745 ns
+Test Results for BIG ALIGNED : SORTED Size: 32711 Time : 72,744 ns
+Test Results for BIG ALIGNED : SORTED Size: 32715 Time : 73,191 ns
+Test Results for BIG ALIGNED : SORTED Size: 65536 Time : 145,935 ns
+Test Results for BIG ALIGNED : SORTED Size: 131072 Time : 293,656 ns
+Test Results for BIG ALIGNED : SORTED Size: 524288 Time : 1,176,409 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32768 Time : 3,685,873 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32760 Time : 3,696,139 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32724 Time : 3,686,766 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32756 Time : 3,698,370 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32710 Time : 3,684,981 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32713 Time : 3,676,948 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32717 Time : 3,683,196 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32711 Time : 3,675,609 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 32715 Time : 3,686,320 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 65536 Time : 7,478,857 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 131072 Time : 15,194,243 ns
+Test Results for BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 524288 Time : 63,925,967 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32768 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32760 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32724 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32756 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32710 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32713 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32717 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32711 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 32715 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 65536 Time : 146,382 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 131072 Time : 294,995 ns
+Test Results for BIG ALIGNED : ONE_NUMBER Size: 524288 Time : 1,178,640 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32768 Time : 72,745 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32760 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32724 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32756 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32710 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32713 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32717 Time : 72,744 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32711 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 32715 Time : 73,191 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 65536 Time : 146,382 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 131072 Time : 293,656 ns
+Test Results for BIG ALIGNED : ONLY_ZEROES Size: 524288 Time : 1,176,855 ns
+Test Results for Super-BIG ALIGNED : RAND_with_Repeats Size: 2096128 Time : 393,030,445 ns
+Test Results for Super-BIG ALIGNED : REV_SORTED Size: 2096128 Time : 6,106,528 ns
+Test Results for Super-BIG ALIGNED : RAND_NO_REPEATS_SHUFFLED Size: 2096128 Time : 454,612,520 ns
+Test Results for Super-BIG ALIGNED : SORTED Size: 2096128 Time : 4,838,184 ns
+Test Results for Super-BIG ALIGNED : SORTED_WITH_SOME_ZEROES_INSERTED Size: 2096128 Time : 269,585,137 ns
+Test Results for Super-BIG ALIGNED : ONE_NUMBER Size: 2096128 Time : 4,731,968 ns
+Test Results for Super-BIG ALIGNED : ONLY_ZEROES Size: 2096128 Time : 4,728,398 ns
+*************************************************************
+** END Detailed report one per one for each input data array 
+*************************************************************
+
+*****************************************************
+Printing Final results !!! : 
+*****************************************************
+Algorithm Name: RusevMergeSort256basedOn4_2  INFO: 
+
+Total Time NOT Aligned: 1,633,727,059 ns
+Average Small Time NOT Aligned: 60,815 ns
+Average Big Time NOT Aligned: 5,828,379 ns
+Average Super Big Time NOT Aligned: 162,840,860 ns
+
+Total Time Aligned: 1,632,382,854 ns
+Average Small Time Aligned: 46,668 ns
+Average Big Time Aligned: 5,850,986 ns
+Average Super Big Time Aligned: 162,519,025 ns
+
+Small Tests: RAND_with_Repeats, Total: 10, Average: 215,823 ns
+Small Tests: REV_SORTED, Total: 10, Average: 2,633 ns
+Small Tests: RAND_NO_REPEATS_SHUFFLED, Total: 10, Average: 113,401 ns
+Small Tests: SORTED, Total: 10, Average: 2,052 ns
+Small Tests: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 10, Average: 87,739 ns
+Small Tests: ONE_NUMBER, Total: 10, Average: 2,097 ns
+Small Tests: ONLY_ZEROES, Total: 10, Average: 1,963 ns
+Big Tests RAND_with_Repeats, Total: 12, Average: 14,303,011 ns
+Big Tests REV_SORTED, Total: 12, Average: 239,841 ns
+Big Tests RAND_NO_REPEATS_SHUFFLED, Total: 12, Average: 15,700,443 ns
+Big Tests SORTED, Total: 12, Average: 189,597 ns
+Big Tests SORTED_WITH_SOME_ZEROES_INSERTED, Total: 12, Average: 9,986,200 ns
+Big Tests ONE_NUMBER, Total: 12, Average: 189,931 ns
+Big Tests ONLY_ZEROES, Total: 12, Average: 189,634 ns
+Super Big: RAND_with_Repeats, Total: 1, Average: 396,490,052 ns
+Super Big: REV_SORTED, Total: 1, Average: 6,000,311 ns
+Super Big: RAND_NO_REPEATS_SHUFFLED, Total: 1, Average: 453,133,528 ns
+Super Big: SORTED, Total: 1, Average: 4,756,959 ns
+Super Big: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 1, Average: 269,698,940 ns
+Super Big: ONE_NUMBER, Total: 1, Average: 4,898,432 ns
+Super Big: ONLY_ZEROES, Total: 1, Average: 4,907,804 ns
+Small Aligned: RAND_with_Repeats, Total: 10, Average: 117,105 ns
+Small Aligned: REV_SORTED, Total: 10, Average: 2,409 ns
+Small Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 10, Average: 113,445 ns
+Small Aligned: SORTED, Total: 10, Average: 2,008 ns
+Small Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 10, Average: 87,873 ns
+Small Aligned: ONE_NUMBER, Total: 10, Average: 1,919 ns
+Small Aligned: ONLY_ZEROES, Total: 10, Average: 1,919 ns
+Big Aligned: RAND_with_Repeats, Total: 12, Average: 14,109,955 ns
+Big Aligned: REV_SORTED, Total: 12, Average: 238,948 ns
+Big Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 12, Average: 16,058,289 ns
+Big Aligned: SORTED, Total: 12, Average: 189,336 ns
+Big Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 12, Average: 9,981,105 ns
+Big Aligned: ONE_NUMBER, Total: 12, Average: 189,783 ns
+Big Aligned: ONLY_ZEROES, Total: 12, Average: 189,485 ns
+Super Big Aligned: RAND_with_Repeats, Total: 1, Average: 393,030,445 ns
+Super Big Aligned: REV_SORTED, Total: 1, Average: 6,106,528 ns
+Super Big Aligned: RAND_NO_REPEATS_SHUFFLED, Total: 1, Average: 454,612,520 ns
+Super Big Aligned: SORTED, Total: 1, Average: 4,838,184 ns
+Super Big Aligned: SORTED_WITH_SOME_ZEROES_INSERTED, Total: 1, Average: 269,585,137 ns
+Super Big Aligned: ONE_NUMBER, Total: 1, Average: 4,731,968 ns
+Super Big Aligned: ONLY_ZEROES, Total: 1, Average: 4,728,398 ns
+ITERATION 4 : Total sum of checked time for NOT Aligned tests OK: 1,633,726,990 ns
+ITERATION 4 : Total sum of checked time for ALIGNED tests OK: 1,632,382,772 ns
+ TEST SUCCESSFUL !!! Total runs to average : 5
