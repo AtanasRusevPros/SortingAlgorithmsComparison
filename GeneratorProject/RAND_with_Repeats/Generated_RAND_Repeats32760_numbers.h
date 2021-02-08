@@ -1,0 +1,5 @@
+#ifndef GENERATED_arrayRAND_Repeats32760
+#define GENERATED_arrayRAND_Repeats32760
+extern SingleTestContainer arrayRAND_Repeats_NotAligned_32760_c;
+extern SingleTestContainer arrayRAND_Repeats_Aligned_32760_c;
+#endif
