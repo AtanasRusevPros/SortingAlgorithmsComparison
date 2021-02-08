@@ -1,0 +1,5 @@
+#ifndef GENERATED_arrayOne_EqualNum256
+#define GENERATED_arrayOne_EqualNum256
+extern SingleTestContainer arrayOne_EqualNum_NotAligned_256_c;
+extern SingleTestContainer arrayOne_EqualNum_Aligned_256_c;
+#endif
