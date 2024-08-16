@@ -1,5 +1,8 @@
 # SortingAlgorithmsComparison
 
+While the project is effective and works as planned, the idea in it is a bit obsolete. Simply put, after my latest Linux tests on many of the algorithms - results vary on multiple factors. FYI - the C++ STL stable sort has a great smart sorting implementation and is from the best ones. You can reach up to 30% improvement on it with some crazy tweaks, but it will not be stable.
+Thus, it is quite a lot more important to consider your application and data structure design, then to make extremely smart sort. Sorry, the STL sort is already quite great. Even though, if you want to read - see what I have done a few years ago :). It is fun :).
+
 This is my attempt to make better implementations of some algorithms. In addition I wanted to write something new and good, but also to look for one already existing implementation which would be the best on average level.
 
 Currently all implementations sort arrays of int numbers.
