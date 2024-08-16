@@ -34,6 +34,8 @@
 #include <iostream>
 
 #include <cstdlib>
+#include <cstring>
+#include <climits>
 
 #include "../Tools/AlgorithmSupport.h"
 

@@ -33,7 +33,7 @@
 #ifndef RUSEVMERGESORT32_H
 #define RUSEVMERGESORT32_H
 
-#include "..\Tools\GenericMergeData.h"
+#include "../Tools/GenericMergeData.h"
 
 template <const int T>
 inline void RusevMergeSortBasedOn2(int arr[], unsigned int size);

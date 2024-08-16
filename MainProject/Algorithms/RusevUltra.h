@@ -33,7 +33,7 @@
 #ifndef RUSEVULTRA_H
 #define RUSEVULTRA_H
 
-#include "..\Tools\GenericMergeData.h"
+#include "../Tools/GenericMergeData.h"
 
 template <const int T>
 void RusevUltraBasedOn4Rusev(int arr[], unsigned int size);

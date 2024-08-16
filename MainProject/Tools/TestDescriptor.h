@@ -106,6 +106,7 @@ enum class TestExecutionLength {
 
 enum class TestSelection {
     ALL,
+    ONLY_SHUFFLED_NO_SORTED_REV,
     ONLY_EQUALS_SHORT,
     ONLY_SORTED_SHORT,
     ONLY_REV_SORTED_SHORT,

@@ -164,6 +164,8 @@ What is the purpose of this action? To check what is the dispersion of our data 
 #include <vector>
 #include <ctime>
 
+#include <cstring>
+#include <climits>
 #include <filesystem>
 #include <fstream>
 #include <algorithm>
@@ -338,8 +340,13 @@ std::string retStringAlgoID(AlgorithmID type) {
     case AlgorithmID::QuickSortDualPivot_WithCheck: return "QuickSortDualPivot_WithCheck";
     case AlgorithmID::QuickSortDualPivotMerge: return "QuickSortDualPivotMerge";
 
-    case AlgorithmID::blocked_double_pivot_check_mosqrt_sort: return "blocked_double_pivot_check_mosqrt_sort";
+    case AlgorithmID::blocked_double_pivot_check_mosqrt_sort: return "blocked_double_pivot_check_mosqrt_sort inline void qsort_double_pivot_check";
     case AlgorithmID::QuickSortDualPivot_Yaroslavskiy: return "QuickSortDualPivot_Yaroslavskiy";
+    case AlgorithmID::QuickSortDualPivot_YaroslavskiyV2: return "QuickSortDualPivot_YaroslavskiyV2";    
+    case AlgorithmID::QuickSortDualPivotV2_RusevMerge32: return "QuickSortDualPivotV2_RusevMerge32";    
+    case AlgorithmID::QuickSortDualPivotV2_RusevMerge64: return "QuickSortDualPivotV2_RusevMerge64";    
+    case AlgorithmID::QuickSortTriplePivot_YaroslavskiyV3: return "QuickSortTriplePivot_YaroslavskiyV3";    
+    case AlgorithmID::QuickSortTriplePivot_YaroslavskiyV3_impr: return "QuickSortTriplePivot_YaroslavskiyV3_impr";    
     case AlgorithmID::QuickSortDualPivot_Qsort3_aumueller: return "QuickSortDualPivot_Qsort3_aumueller";
 
     case AlgorithmID::stl_StableSort: return "stl_StableSort";
@@ -438,7 +445,7 @@ public:
         finalComparisonRes.append(csvHeaderLine);
     };
 
-    void multiTestDynamicData(AlgorithmID algoID, std::string genInf, sortFuncPtr sortFunc, bool testAligned = true);
+    void multiTestDynamicData(AlgorithmID algoID, std::string genInf, sortFuncPtr sortFunc, bool testAligned = false);
     void saveFinalSummary();
 
 };
@@ -1493,27 +1500,23 @@ int main(void)// int argc, char *argv[])
 
 
     
-    testObj.multiTestDynamicData(AlgorithmID::RusevUltraBasedOn4Rusev, "", RusevUltraBasedOn4Rusev<32>);
-    testObj.multiTestDynamicData(AlgorithmID::RusevUltraBasedOn4RusevV2, "", RusevUltraBasedOn4RusevV2<32>);
-    
-
-    testObj.multiTestDynamicData(AlgorithmID::stl_StableSort, "", stl_StableSort);
-    testObj.multiTestDynamicData(AlgorithmID::stl_sortRegular, "", stl_sortRegular);
-    
-    // testObj.multiTestDynamicData(AlgorithmID::svpv_stdlib_isort, "", svpv_stdlib_isort);    
+    // testObj.multiTestDynamicData(AlgorithmID::svpv_stdlib_isort, "", svpv_stdlib_isort);
     // testObj.multiTestDynamicData(AlgorithmID::Other, "", memoryOverFlowException);
     // testObj.multiTestDynamicData(AlgorithmID::Other, "", badTypeIdException);
     // testObj.multiTestDynamicData(AlgorithmID::QuickSortDualPivot_Yaroslavskiy, "", QuickSortDualPivot_Yaroslavskiy);
+    testObj.multiTestDynamicData(AlgorithmID::QuickSortDualPivot_YaroslavskiyV2, "", QuickSortDualPivot_YaroslavskiyV2);
+    testObj.multiTestDynamicData(AlgorithmID::QuickSortDualPivotV2_RusevMerge32, "", QuickSortDualPivotV2_RusevMerge32);
+    testObj.multiTestDynamicData(AlgorithmID::QuickSortDualPivotV2_RusevMerge64, "", QuickSortDualPivotV2_RusevMerge64);
+    // testObj.multiTestDynamicData(AlgorithmID::QuickSortTriplePivot_YaroslavskiyV3, "", QuickSortTriplePivot_YaroslavskiyV3);
+    // testObj.multiTestDynamicData(AlgorithmID::QuickSortTriplePivot_YaroslavskiyV3_impr, "", QuickSortTriplePivot_YaroslavskiyV3_impr);
     // testObj.multiTestDynamicData(AlgorithmID::QuickSortDualPivot_Qsort3_aumueller, "", QuickSortDualPivot_Qsort3_aumueller);
 
 
-    testObj.multiTestDynamicData(AlgorithmID::RusevUltraBasedOn4_V3_integral, "", RusevUltraBasedOn4_V3_integral<32>);
-
-    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSortBasedOn2_3rd_merge_improve, "", RusevMergeSortBasedOn2_3rd_merge_improve<32>);
-    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSortBasedOn4_3rd_merge_improve, "", RusevMergeSortBasedOn4_3rd_merge_improve<32>);
-
-
-    
+    // SUPER SLOW
+    /* testObj.multiTestDynamicData(AlgorithmID::QuickSortDualPivot, "", QuickSortDualPivot);
+    testObj.multiTestDynamicData(AlgorithmID::QuickSortDualPivotRusev_WithCheck, "", QuickSortDualPivotRusev_WithCheck);
+    testObj.multiTestDynamicData(AlgorithmID::QuicksortSinglePivot_RusevOptimized, "", QuicksortSinglePivot_RusevOptimized);
+    testObj.multiTestDynamicData(AlgorithmID::QuicksortSinglePivotWithCheck, "", QuicksortSinglePivotWithCheck);
     testObj.multiTestDynamicData(AlgorithmID::RusevSwapSort2, "", RusevSwapSort2);
     testObj.multiTestDynamicData(AlgorithmID::RusevSwapSort2ImprIdx, "", RusevSwapSort2ImprIdx);
     testObj.multiTestDynamicData(AlgorithmID::RusevSwapSort2withCheck, "", RusevSwapSort2withCheck);
@@ -1521,22 +1524,10 @@ int main(void)// int argc, char *argv[])
     testObj.multiTestDynamicData(AlgorithmID::RusevSwapSort4, "", RusevSwapSort4);
     testObj.multiTestDynamicData(AlgorithmID::RusevSwapSort4fullWithCheck, "", RusevSwapSort4fullWithCheck);
     testObj.multiTestDynamicData(AlgorithmID::RusevSwapSort4fullWithCheckAndVolatile, "", RusevSwapSort4fullWithCheckAndVolatile);
-    
-
-
-    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort32basedOn2, "", RusevMergeSortBasedOn2<32>);   
-    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort32basedOn4_2, "", RusevMergeSortBasedOn4_2<32>);
-    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSortBasedOn2_32StaticStacksNoOpt, "", RusevMergeSortBasedOn2_32StaticStacksNoOpt);
-    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSortBasedOn2_32StaticStacksOPTIMIZED, "", RusevMergeSortBasedOn2_32StaticStacksOPTIMIZED);
-    
-    
-    testObj.multiTestDynamicData(AlgorithmID::QuicksortSinglePivotWithCheck, "", QuicksortSinglePivotWithCheck);
-    testObj.multiTestDynamicData(AlgorithmID::QuicksortSinglePivot_RusevOptimized, "", QuicksortSinglePivot_RusevOptimized);
-    testObj.multiTestDynamicData(AlgorithmID::QuickSortDualPivotRusev_WithCheck, "", QuickSortDualPivotRusev_WithCheck);
-    // SUPER SLOW - 60 seconds per test
-    testObj.multiTestDynamicData(AlgorithmID::blocked_double_pivot_check_mosqrt_sort, "", blocked_double_pivot_check_mosqrt_sort);
-
-    testObj.multiTestDynamicData(AlgorithmID::QuickSortDualPivot, "", QuickSortDualPivot);
+    // JUST SLOW:
+    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort2048basedOn2, "", RusevMergeSortBasedOn2<2048>);
+    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort2048basedOn4_2, "", RusevMergeSortBasedOn4_2<2048>);
+    */
 
     testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort64basedOn2, "", RusevMergeSortBasedOn2<64>);
     testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort64basedOn4_2, "", RusevMergeSortBasedOn4_2<64>);
@@ -1549,8 +1540,6 @@ int main(void)// int argc, char *argv[])
     testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort512basedOn4_2, "", RusevMergeSortBasedOn4_2<512>);
     testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort1024basedOn2, "", RusevMergeSortBasedOn2<1024>);
     testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort1024basedOn4_2, "", RusevMergeSortBasedOn4_2<1024>);
-    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort2048basedOn2, "", RusevMergeSortBasedOn2<2048>);
-    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort2048basedOn4_2, "", RusevMergeSortBasedOn4_2<2048>);
     
     
 
@@ -1566,9 +1555,31 @@ int main(void)// int argc, char *argv[])
     testObj.multiTestDynamicData(AlgorithmID::svpv_stl_isort, "", svpv_stl_isort);
     testObj.multiTestDynamicData(AlgorithmID::svpv_isort_qsort, "", svpv_isort_qsort);
     testObj.multiTestDynamicData(AlgorithmID::svpv_stl_isort_RusevMerge, "", svpv_stl_isort_RusevMerge);
-    testObj.multiTestDynamicData(AlgorithmID::svpv_isort_qsort_RusevMerge, "", svpv_isort_qsort_RusevMerge);    
+    testObj.multiTestDynamicData(AlgorithmID::svpv_isort_qsort_RusevMerge, "", svpv_isort_qsort_RusevMerge);   
     
+    testObj.multiTestDynamicData(AlgorithmID::svpv_isort_qsort, "", svpv_isort_qsort);
+
+    testObj.multiTestDynamicData(AlgorithmID::RusevUltraBasedOn4Rusev, "", RusevUltraBasedOn4Rusev<32>);
+    testObj.multiTestDynamicData(AlgorithmID::RusevUltraBasedOn4RusevV2, "", RusevUltraBasedOn4RusevV2<32>);
     
+
+    
+    testObj.multiTestDynamicData(AlgorithmID::RusevUltraBasedOn4_V3_integral, "", RusevUltraBasedOn4_V3_integral<32>);
+
+    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSortBasedOn2_3rd_merge_improve, "", RusevMergeSortBasedOn2_3rd_merge_improve<32>);
+    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSortBasedOn4_3rd_merge_improve, "", RusevMergeSortBasedOn4_3rd_merge_improve<32>);
+
+    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort32basedOn2, "", RusevMergeSortBasedOn2<32>);   
+    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSort32basedOn4_2, "", RusevMergeSortBasedOn4_2<32>);
+    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSortBasedOn2_32StaticStacksNoOpt, "", RusevMergeSortBasedOn2_32StaticStacksNoOpt);
+    testObj.multiTestDynamicData(AlgorithmID::RusevMergeSortBasedOn2_32StaticStacksOPTIMIZED, "", RusevMergeSortBasedOn2_32StaticStacksOPTIMIZED);
+ 
+    testObj.multiTestDynamicData(AlgorithmID::svpv_stl_isort, "", svpv_stl_isort);    
+    testObj.multiTestDynamicData(AlgorithmID::svpv_stl_isort_RusevMerge, "", svpv_stl_isort_RusevMerge);
+    testObj.multiTestDynamicData(AlgorithmID::stl_StableSort, "", stl_StableSort);
+    testObj.multiTestDynamicData(AlgorithmID::stl_sortRegular, "", stl_sortRegular);
+    testObj.multiTestDynamicData(AlgorithmID::blocked_double_pivot_check_mosqrt_sort, "", blocked_double_pivot_check_mosqrt_sort);
+     
     testObj.saveFinalSummary();
     
     totalTime = getTime_Since_Epoch_ns() - totalTime;

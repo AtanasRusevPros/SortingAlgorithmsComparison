@@ -76,6 +76,51 @@ TestData::TestData(unsigned long long maxTestDataBytes, targetHwListing hw_, tar
             break;
         }
 
+        case TestSelection::ONLY_SHUFFLED_NO_SORTED_REV: {
+
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_32_c);
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_37_c);
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_64_c);
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_128_c);
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_256_c);
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_512_c);
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_1024_c);
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_2048_c);
+
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_32768_c);
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_32711_c);
+
+            if (TestExecutionLength::LONG == length){
+                addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_65536_c);
+                addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_131072_c);
+                addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_524288_c);
+                addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_2096128_c);
+            }
+
+
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_32_c);
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_37_c);
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_64_c);
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_128_c);
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_256_c);
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_512_c);
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_1024_c);
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_2048_c);
+
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_32768_c);
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_32711_c);
+
+            if (TestExecutionLength::LONG == length){
+                addNotAlignedTest(&arrayRAND_Repeats_NotAligned_65536_c);
+                addNotAlignedTest(&arrayRAND_Repeats_NotAligned_131072_c);
+                addNotAlignedTest(&arrayRAND_Repeats_NotAligned_524288_c);
+                addNotAlignedTest(&arrayRAND_Repeats_NotAligned_2096128_c);
+            }
+
+
+            break;
+        }
+
         case TestSelection::SPECIAL_SHORT_SELECTED_512: {
 
             addNotAlignedTest(&arrayRAND_Repeats_NotAligned_512_c);
@@ -115,129 +160,129 @@ TestData::TestData(unsigned long long maxTestDataBytes, targetHwListing hw_, tar
             break;
         }
 
-    case TestSelection::ONLY_DIVISIBLE_BY_4_NORMAL :{
-        testVect.reserve(100);
+        case TestSelection::ONLY_DIVISIBLE_BY_4_NORMAL :{
+            testVect.reserve(100);
 
-        addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_32_c);
-        addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_64_c);
-        addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_128_c);
-        addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_256_c);
-        addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_512_c);
-        addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_1024_c);
-        addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_2048_c);
+            addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_32_c);
+            addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_64_c);
+            addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_128_c);
+            addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_256_c);
+            addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_512_c);
+            addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_1024_c);
+            addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_2048_c);
 
-        addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_32768_c);
+            addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_32768_c);
 
-        if (TestExecutionLength::LONG == length){
-            addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_65536_c);
-            addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_131072_c);
-            addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_524288_c);
+            if (TestExecutionLength::LONG == length){
+                addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_65536_c);
+                addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_131072_c);
+                addNotAlignedTest(&arrayNonRepeatSorted_NotAligned_524288_c);
+            }
+
+
+
+            addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_32_c);
+            addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_64_c);
+            addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_128_c);
+            addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_256_c);
+            addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_512_c);
+            addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_1024_c);
+            addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_2048_c);
+
+            addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_32768_c);
+
+            if (TestExecutionLength::LONG == length){
+                addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_65536_c);
+                addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_131072_c);
+                addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_524288_c);
+            }
+
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_32_c);
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_64_c);
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_128_c);
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_256_c);
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_512_c);
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_1024_c);
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_2048_c);
+
+            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_32768_c);
+
+            if (TestExecutionLength::LONG == length){
+                addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_65536_c);
+                addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_131072_c);
+                addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_524288_c);
+            }
+
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_32_c);
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_64_c);
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_128_c);
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_256_c);
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_512_c);
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_1024_c);
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_2048_c);
+
+            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_32768_c);
+
+            if (TestExecutionLength::LONG == length){
+                addNotAlignedTest(&arrayRAND_Repeats_NotAligned_65536_c);
+                addNotAlignedTest(&arrayRAND_Repeats_NotAligned_131072_c);
+                addNotAlignedTest(&arrayRAND_Repeats_NotAligned_524288_c);
+            }
+
+
+            addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_32_c);
+            addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_64_c);
+            addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_128_c);
+            addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_256_c);
+            addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_512_c);
+            addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_1024_c);
+            addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_2048_c);
+
+            addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_32768_c);
+
+            if (TestExecutionLength::LONG == length){
+                addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_65536_c);
+                addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_131072_c);
+                addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_524288_c);
+            }
+
+            addNotAlignedTest(&arrayOne_EqualNum_NotAligned_32_c);
+            addNotAlignedTest(&arrayOne_EqualNum_NotAligned_64_c);
+            addNotAlignedTest(&arrayOne_EqualNum_NotAligned_128_c);
+            addNotAlignedTest(&arrayOne_EqualNum_NotAligned_256_c);
+            addNotAlignedTest(&arrayOne_EqualNum_NotAligned_512_c);
+            addNotAlignedTest(&arrayOne_EqualNum_NotAligned_1024_c);
+
+            addNotAlignedTest(&arrayOne_EqualNum_NotAligned_2048_c);
+            addNotAlignedTest(&arrayOne_EqualNum_NotAligned_32768_c);
+
+            if (TestExecutionLength::LONG == length){
+                addNotAlignedTest(&arrayOne_EqualNum_NotAligned_65536_c);
+                addNotAlignedTest(&arrayOne_EqualNum_NotAligned_131072_c);
+                addNotAlignedTest(&arrayOne_EqualNum_NotAligned_524288_c);
+            }
+
+            addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_32_c);
+            addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_64_c);
+            addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_128_c);
+            addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_256_c);
+            addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_512_c);
+
+
+            addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_1024_c);
+            addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_2048_c);
+            addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_32768_c);
+
+
+            if (TestExecutionLength::LONG == length){
+                addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_65536_c);
+                addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_131072_c);
+                addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_524288_c);
+            }
+
+
+            break;
         }
-
-
-
-        addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_32_c);
-        addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_64_c);
-        addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_128_c);
-        addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_256_c);
-        addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_512_c);
-        addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_1024_c);
-        addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_2048_c);
-
-        addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_32768_c);
-
-        if (TestExecutionLength::LONG == length){
-            addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_65536_c);
-            addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_131072_c);
-            addNotAlignedTest(&arrayNonRepeat_REVERSE_Sorted_NotAligned_524288_c);
-        }
-
-        addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_32_c);
-        addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_64_c);
-        addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_128_c);
-        addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_256_c);
-        addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_512_c);
-        addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_1024_c);
-        addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_2048_c);
-
-        addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_32768_c);
-
-        if (TestExecutionLength::LONG == length){
-            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_65536_c);
-            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_131072_c);
-            addNotAlignedTest(&arrayNonRepeat_Shuffled_NotAligned_524288_c);
-        }
-
-        addNotAlignedTest(&arrayRAND_Repeats_NotAligned_32_c);
-        addNotAlignedTest(&arrayRAND_Repeats_NotAligned_64_c);
-        addNotAlignedTest(&arrayRAND_Repeats_NotAligned_128_c);
-        addNotAlignedTest(&arrayRAND_Repeats_NotAligned_256_c);
-        addNotAlignedTest(&arrayRAND_Repeats_NotAligned_512_c);
-        addNotAlignedTest(&arrayRAND_Repeats_NotAligned_1024_c);
-        addNotAlignedTest(&arrayRAND_Repeats_NotAligned_2048_c);
-
-        addNotAlignedTest(&arrayRAND_Repeats_NotAligned_32768_c);
-
-        if (TestExecutionLength::LONG == length){
-            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_65536_c);
-            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_131072_c);
-            addNotAlignedTest(&arrayRAND_Repeats_NotAligned_524288_c);
-        }
-
-
-        addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_32_c);
-        addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_64_c);
-        addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_128_c);
-        addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_256_c);
-        addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_512_c);
-        addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_1024_c);
-        addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_2048_c);
-
-        addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_32768_c);
-
-        if (TestExecutionLength::LONG == length){
-            addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_65536_c);
-            addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_131072_c);
-            addNotAlignedTest(&arrayNonRepeatSorted_SomeZeroes_NotAligned_524288_c);
-        }
-
-        addNotAlignedTest(&arrayOne_EqualNum_NotAligned_32_c);
-        addNotAlignedTest(&arrayOne_EqualNum_NotAligned_64_c);
-        addNotAlignedTest(&arrayOne_EqualNum_NotAligned_128_c);
-        addNotAlignedTest(&arrayOne_EqualNum_NotAligned_256_c);
-        addNotAlignedTest(&arrayOne_EqualNum_NotAligned_512_c);
-        addNotAlignedTest(&arrayOne_EqualNum_NotAligned_1024_c);
-
-        addNotAlignedTest(&arrayOne_EqualNum_NotAligned_2048_c);
-        addNotAlignedTest(&arrayOne_EqualNum_NotAligned_32768_c);
-
-        if (TestExecutionLength::LONG == length){
-            addNotAlignedTest(&arrayOne_EqualNum_NotAligned_65536_c);
-            addNotAlignedTest(&arrayOne_EqualNum_NotAligned_131072_c);
-            addNotAlignedTest(&arrayOne_EqualNum_NotAligned_524288_c);
-        }
-
-        addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_32_c);
-        addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_64_c);
-        addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_128_c);
-        addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_256_c);
-        addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_512_c);
-
-
-        addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_1024_c);
-        addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_2048_c);
-        addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_32768_c);
-
-
-        if (TestExecutionLength::LONG == length){
-            addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_65536_c);
-            addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_131072_c);
-            addNotAlignedTest(&arrayOne_EqualNumZeroes_NotAligned_524288_c);
-        }
-
-
-        break;
-    }
         case TestSelection::ONLY_SORTED_SHORT :{
             testVect.reserve(10);
             testVectAligned.reserve(10);

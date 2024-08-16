@@ -10,4 +10,10 @@
 #ifndef YAROSLAVSKIY_H
 #define YAROSLAVSKIY_H
 void QuickSortDualPivot_Yaroslavskiy(int* arr, unsigned int size);
+void QuickSortDualPivot_YaroslavskiyV2(int* arr, unsigned int size);
+void QuickSortDualPivotV2_RusevMerge32(int arr[], unsigned int size);
+void QuickSortDualPivotV2_RusevMerge64(int arr[], unsigned int size);
+void QuickSortTriplePivot_YaroslavskiyV3(int* arr, unsigned int size);
+void QuickSortTriplePivot_YaroslavskiyV3_impr(int* arr, unsigned int size);
+
 #endif // YAROSLAVSKIY_H

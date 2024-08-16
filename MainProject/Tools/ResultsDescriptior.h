@@ -89,6 +89,11 @@ enum class AlgorithmID{
 
     blocked_double_pivot_check_mosqrt_sort,
     QuickSortDualPivot_Yaroslavskiy,
+    QuickSortDualPivot_YaroslavskiyV2,
+    QuickSortDualPivotV2_RusevMerge32,
+    QuickSortDualPivotV2_RusevMerge64,
+    QuickSortTriplePivot_YaroslavskiyV3,
+    QuickSortTriplePivot_YaroslavskiyV3_impr,
     QuickSortDualPivot_Qsort3_aumueller,
 
     stl_StableSort,

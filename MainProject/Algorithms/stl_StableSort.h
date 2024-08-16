@@ -33,7 +33,7 @@
 #ifndef STL_STABLESORT_H
 #define STL_STABLESORT_H
 
-#include "..\Tools\GenericMergeData.h"
+#include "../Tools/GenericMergeData.h"
 
 void stl_StableSort(int arr[], unsigned int size);
 void stl_sortRegular(int arr[], unsigned int size);
